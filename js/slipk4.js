@@ -1,50 +1,48 @@
-// ฟังก์ชันเพื่อโหลดฟอนต์
 function loadFonts() {
     const fonts = [
-        //SFThonburi
         new FontFace('SFThonburiLight', 'url(assets/fonts/SFThonburi.woff)'),
         new FontFace('SFThonburiRegular', 'url(assets/fonts/SFThonburi-Regular.woff)'),
         new FontFace('SFThonburiSemiBold', 'url(assets/fonts/SFThonburi-Semibold.woff)'),
-        new FontFace('SFThonburiBold', 'url(assets/fonts/SFThonburi-Bold.woff)'),
+        new FontFace('SFThonburiBold', 'url(assets/fonts/SFThonburi-Bold.woff)')
     ];
 
-    // โหลดฟอนต์ทั้งหมดและเพิ่มเข้าไปที่ document
-    return Promise.all(fonts.map(font => font.load())).then(function(loadedFonts) {
-        loadedFonts.forEach(function(font) {
-            document.fonts.add(font);
+    return Promise.allSettled(fonts.map(font => font.load())).then(function(results) {
+        results.forEach(function(result) {
+            if (result.status === 'fulfilled') {
+                document.fonts.add(result.value);
+            }
         });
     });
 }
 
-// เรียกใช้ฟังก์ชันเพื่อโหลดฟอนต์หลังจากหน้าเว็บถูกโหลด
 window.onload = function() {
     setCurrentDateTime();
-    // โหลดฟอนต์และอัปเดตการแสดงผล
     loadFonts().then(function() {
-        // ใช้ document.fonts.ready เพื่อให้มั่นใจว่าฟอนต์ถูกโหลดทั้งหมด
         document.fonts.ready.then(function() {
-            updateDisplay(); // วาดใหม่ด้วยฟอนต์ที่ถูกต้องหลังจากฟอนต์ถูกโหลดเสร็จ
+            updateDisplay();
         });
     }).catch(function() {
-        // หากฟอนต์โหลดไม่สำเร็จ จะยังคงแสดงผลได้
         updateDisplay();
     });
 };
 
-
 function setCurrentDateTime() {
     const now = new Date();
     const localDateTime = now.toLocaleString('sv-SE', { timeZone: 'Asia/Bangkok', hour12: false });
-    const formattedDateTime = localDateTime.substring(0, 16); // Remove seconds
-    document.getElementById('datetime').value = formattedDateTime;
-    document.getElementById('datetime2').value = formattedDateTime;
+    const formattedDateTime = localDateTime.substring(0, 16);
+    
+    const dt1 = document.getElementById('datetime');
+    const dt2 = document.getElementById('datetime2');
+    if(dt1) dt1.value = formattedDateTime;
+    if(dt2) dt2.value = formattedDateTime;
 
-    // Set notification time one minute later
     const oneMinuteLater = new Date(now.getTime() + 60000);
     const hours = oneMinuteLater.getHours().toString().padStart(2, '0');
     const minutes = oneMinuteLater.getMinutes().toString().padStart(2, '0');
     const formattedTimePlusOne = `${hours}:${minutes}`;
-    document.getElementById('datetime_plus_one').value = formattedTimePlusOne;
+    
+    const dtPlusOne = document.getElementById('datetime_plus_one');
+    if(dtPlusOne) dtPlusOne.value = formattedTimePlusOne;
 }
 
 function padZero(number) {
@@ -62,7 +60,6 @@ function formatDateWithDay(date) {
     return `${dayName}ที่ ${day} ${month}`;
 }
 
-
 function formatDate(date) {
     const options = { day: 'numeric', month: 'short', year: '2-digit' };
     let formattedDate = new Date(date).toLocaleDateString('th-TH', options);
@@ -74,12 +71,8 @@ function formatDate(date) {
     return `${day} ${month} ${year}`;
 }
 
-
-
-
 let qrCodeImage = null;
 let powerSavingMode = false;
-
 
 function handlePaste(event) {
     const items = event.clipboardData.items;
@@ -101,22 +94,19 @@ function handlePaste(event) {
 }
 
 function updateDisplay() {
-    const batteryLevel = document.getElementById('battery').value || '100';
-    // Transaction 1 Inputs
-    const datetime = document.getElementById('datetime').value || '-';
-    const datetimePlusOne = document.getElementById('datetime_plus_one').value || '-';
-    const money01 = document.getElementById('money01').value || '-';
-    const remaining1 = document.getElementById('remaining1').value || '-';
-    const senderaccount1 = document.getElementById('senderaccount1').value || '-';
-    const transactionType1 = document.getElementById('transactionType').value;
+    const batteryLevel = document.getElementById('battery')?.value || '100';
+    const datetime = document.getElementById('datetime')?.value || '-';
+    const datetimePlusOne = document.getElementById('datetime_plus_one')?.value || '-';
+    const money01 = document.getElementById('money01')?.value || '-';
+    const remaining1 = document.getElementById('remaining1')?.value || '-';
+    const senderaccount1 = document.getElementById('senderaccount1')?.value || '-';
+    const transactionType1 = document.getElementById('transactionType')?.value || 'incoming';
 
-    // Transaction 2 Inputs
-    const datetime2 = document.getElementById('datetime2').value || '-';
-    const money02 = document.getElementById('money02').value || '-';
-    const remaining2 = document.getElementById('remaining2').value || '-';
-    const transactionType2 = document.getElementById('transactionType2').value;
+    const datetime2 = document.getElementById('datetime2')?.value || '-';
+    const money02 = document.getElementById('money02')?.value || '-';
+    const remaining2 = document.getElementById('remaining2')?.value || '-';
+    const transactionType2 = document.getElementById('transactionType2')?.value || 'incoming';
 
-    // Time Formatting
     const formattedDate1 = formatDate(datetime.substring(0, 10));
     const formattedTime1 = datetime.substring(11, 16);
 
@@ -125,71 +115,58 @@ function updateDisplay() {
 
     const formattedTimePlusOne = datetimePlusOne;
 
-    // Transaction 1 Variables
     let logoImage1;
     let accountText1;
     let moneyColor1;
     let transactionTitle1;
-    let displayMoney01 = money01; // เพิ่มตัวแปรสำหรับแสดงจำนวนเงิน
+    let displayMoney01 = money01; 
 
     if (transactionType1 === 'incoming') {
-        logoImage1 = '../assets/image/paper/LOGO-green.png';
+        logoImage1 = 'assets/image/paper/LOGO-green.png';
         accountText1 = 'เข้าบัญชี';
         moneyColor1 = '#199456';
         transactionTitle1 = 'รายการเงินเข้า';
     } else if (transactionType1 === 'outgoing') {
-        logoImage1 = '../assets/image/paper/LOGO-red.png';
+        logoImage1 = 'assets/image/paper/LOGO-red.png';
         accountText1 = 'จากบัญชี';
         moneyColor1 = '#df1515';
         transactionTitle1 = 'รายการโอน/ถอน';
-        // เพิ่มเครื่องหมายลบหน้าจำนวนเงินถ้ายังไม่มี
-        if (!money01.startsWith('-')) {
-            displayMoney01 = '-' + money01;
-        }
+        if (!money01.startsWith('-')) displayMoney01 = '-' + money01;
     }
 
-    // Transaction 2 Variables
     let logoImage2;
     let accountText2;
     let moneyColor2;
     let transactionTitle2;
-    let displayMoney02 = money02; // เพิ่มตัวแปรสำหรับแสดงจำนวนเงิน
+    let displayMoney02 = money02; 
 
     if (transactionType2 === 'incoming') {
-        logoImage2 = '../assets/image/paper/LOGO-green.png';
+        logoImage2 = 'assets/image/paper/LOGO-green.png';
         accountText2 = 'เข้าบัญชี';
         moneyColor2 = '#199456';
         transactionTitle2 = 'รายการเงินเข้า';
     } else if (transactionType2 === 'outgoing') {
-        logoImage2 = '../assets/image/paper/LOGO-red.png';
+        logoImage2 = 'assets/image/paper/LOGO-red.png';
         accountText2 = 'จากบัญชี';
         moneyColor2 = '#df1515';
         transactionTitle2 = 'รายการโอน/ถอน';
-        // เพิ่มเครื่องหมายลบหน้าจำนวนเงินถ้ายังไม่มี
-        if (!money02.startsWith('-')) {
-            displayMoney02 = '-' + money02;
-        }
+        if (!money02.startsWith('-')) displayMoney02 = '-' + money02;
     }
 
-    
     const canvas = document.getElementById('canvas');
+    if(!canvas) return;
     const ctx = canvas.getContext('2d');
 
-    // Load background image
     const backgroundImage = new Image();
-    backgroundImage.src = '../assets/image/bs/backgroundEnter-KB5.2.jpg';
+    backgroundImage.src = 'assets/image/bs/backgroundEnter-KB5.2.jpg';
+    
     backgroundImage.onload = function() {
-        // Clear the canvas
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-        // Draw background image
         ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
 
-        // Draw notification time
         drawText(ctx, `${formattedTimePlusOne}`, 328, 24, 19.3, 'SFThonburiSemiBold', '#100f17', 'center', 1.5, 3, 0, 0, 800, -0.25);
-        drawText(ctx, `${batteryLevel}%`, 603, 24,19.3,'SFThonburiSemiBold', '#100f17', 'right', 1.5, 3, 0, 0, 800,0.5);
+        drawText(ctx, `${batteryLevel}%`, 603, 24, 19.3, 'SFThonburiSemiBold', '#100f17', 'right', 1.5, 3, 0, 0, 800, 0.5);
 
-        // Draw Transaction 1
         drawImage(ctx, logoImage1, 42, 198, 68, 68);
         drawText(ctx, transactionTitle1, 134, 233, 33, 'SFThonburiBold', '#3b3b3b', 'left', 1.5, 3, 0, 0, 1250, 0);
         drawText(ctx, `${formattedDate1} ${formattedTime1} น.`, 134, 263, 18, 'SFThonburiSemiBold', '#9d9ca1', 'left', 1.5, 3, 0, 0, 1250, 0);
@@ -201,8 +178,7 @@ function updateDisplay() {
         drawText(ctx, `${remaining1} บาท`, 456, 485.8, 18, 'SFThonburiSemiBold', '#9d9ca1', 'right', 1.5, 3, 0, 0, 1250, -0.25);
         drawText(ctx, `${formattedTime1}`, 479, 636, 16.5, 'SFThonburiSemiBold', '#506c90', 'right', 1.5, 3, 0, 0, 1250, -0.25);
 
-        // Draw Transaction 2
-        drawImage(ctx, logoImage2, 42, 739, 68, 68); // Adjusted Y position
+        drawImage(ctx, logoImage2, 42, 739, 68, 68);
         drawText(ctx, transactionTitle2, 134, 773.6, 33, 'SFThonburiBold', '#3b3b3b', 'left', 1.5, 3, 0, 0, 1250, 0);
         drawText(ctx, `${formattedDate2} ${formattedTime2} น.`, 134, 803.3, 18, 'SFThonburiSemiBold', '#9d9ca1', 'left', 1.5, 3, 0, 0, 1250, 0);
         drawText(ctx, `${accountText2}`, 44.7, 880.7, 18, 'SFThonburiSemiBold', '#9d9ca1', 'left', 1.5, 3, 0, 0, 1250, -0.25);
@@ -213,12 +189,10 @@ function updateDisplay() {
         drawText(ctx, `${remaining2} บาท`, 456, 1026.6, 18, 'SFThonburiSemiBold', '#9d9ca1', 'right', 1.5, 3, 0, 0, 1250, -0.25);
         drawText(ctx, `${formattedTime2}`, 479, 1176.3, 16.5, 'SFThonburiSemiBold', '#506c90', 'right', 1.5, 3, 0, 0, 1250, -0.25);
 
-        // Draw QR code if available
         if (qrCodeImage) {
-            ctx.drawImage(qrCodeImage, 0, 130.3, 555, 951); // Adjust position and size as needed
+            ctx.drawImage(qrCodeImage, 0, 130.3, 555, 951);
         }
 
-        // Draw battery
         drawBattery(ctx, batteryLevel, powerSavingMode);
     };
 }
@@ -227,15 +201,13 @@ function drawText(ctx, text, x, y, fontSize, fontFamily, color, align, lineHeigh
     ctx.font = `${fontSize}px ${fontFamily}`;
     ctx.fillStyle = color;
     ctx.textAlign = 'left';
-    ctx.shadowColor = shadowColor;
-    ctx.shadowBlur = shadowBlur;
+    ctx.shadowColor = shadowColor || 'transparent';
+    ctx.shadowBlur = shadowBlur || 0;
 
-    // แยกข้อความตาม <br>
     const paragraphs = text.split('<br>');
     let currentY = y;
 
     paragraphs.forEach(paragraph => {
-        // ใช้ Intl.Segmenter โดยไม่กำหนด locale เพื่อรองรับหลายภาษา
         const segmenter = new Intl.Segmenter(undefined, { granularity: 'word' });
         const words = [...segmenter.segment(paragraph)].map(segment => segment.segment);
 
@@ -255,7 +227,7 @@ function drawText(ctx, text, x, y, fontSize, fontFamily, color, align, lineHeigh
             }
         });
         if (currentLine) {
-            lines.push(currentLine.trimStart()); // ตัดช่องว่างที่ขึ้นต้นบรรทัดใหม่ออก
+            lines.push(currentLine.trimStart());
         }
 
         lines.forEach((line, index) => {
@@ -274,13 +246,9 @@ function drawText(ctx, text, x, y, fontSize, fontFamily, color, align, lineHeigh
             }
         });
 
-        // เพิ่มระยะห่างหลังจากขึ้นบรรทัดใหม่ด้วย <br>
-        currentY + lineHeight;
+        currentY += lineHeight;
     });
 }
-
-
-
 
 function drawTextLine(ctx, text, x, y, letterSpacing) {
     if (!letterSpacing) {
@@ -299,72 +267,63 @@ function drawTextLine(ctx, text, x, y, letterSpacing) {
     });
 }
 
-
 function drawBattery(ctx, batteryLevel, powerSavingMode) {
-    // วาดกรอบแบตเตอรี่ด้วยมุมโค้งมน
-    ctx.lineWidth = 2; // กำหนดความหนาของเส้นเป็น 2 พิกเซล
-    ctx.strokeStyle = '#9b9b9b'; // กำหนดสีเส้นขอบเป็นสีเทา
-    ctx.fillStyle = '#ffffff'; // กำหนดสีพื้นหลังของกรอบแบตเตอรี่เป็นสีขาว
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = '#9b9b9b';
+    ctx.fillStyle = '#ffffff';
 
-    // กำหนดสีแบตเตอรี่ตามระดับและโหมดประหยัดพลังงาน
-    let batteryColor = '#43bc40'; // สีเขียวสำหรับโหมดปกติ
+    let batteryColor = '#43bc40';
     if (batteryLevel <= 20) {
-        batteryColor = '#ff0000'; // สีแดงสำหรับแบตเตอรี่ต่ำ
+        batteryColor = '#ff0000';
     } else if (powerSavingMode) {
-        batteryColor = '#fccd0e'; // สีส้มสำหรับโหมดประหยัดพลังงาน
+        batteryColor = '#fccd0e';
     }
 
-    // วาดการเติมแบตเตอรี่
-    const fillWidth = (batteryLevel / 100) * 32; // คำนวณความกว้างของการเติมแบตเตอรี่ตามระดับแบตเตอรี่
+    const fillWidth = (batteryLevel / 100) * 32;
     const x = 610.5;
     const y = 8.0;
     const height = 15.5;
-    const radius = 5; // รัศมีของโค้ง
+    const radius = 5;
 
-    ctx.fillStyle = batteryColor; // กำหนดสีการเติมแบตเตอรี่ตามที่คำนวณ
+    ctx.fillStyle = batteryColor;
 
-    // เริ่มวาดรูปร่างที่มีมุมโค้ง
-    ctx.beginPath(); // เริ่มวาดรูปใหม่
-    ctx.moveTo(x, y + radius); // เริ่มต้นที่มุมบนซ้าย
-    ctx.lineTo(x, y + height - radius); // วาดเส้นตรงไปที่มุมล่างซ้าย
-    ctx.arcTo(x, y + height, x + radius, y + height, radius); // วาดส่วนโค้งที่มุมล่างซ้าย
-    ctx.lineTo(x + fillWidth - radius, y + height); // วาดเส้นตรงไปที่มุมล่างขวา
-    ctx.arcTo(x + fillWidth, y + height, x + fillWidth, y + height - radius, radius); // วาดส่วนโค้งที่มุมล่างขวา
-    ctx.lineTo(x + fillWidth, y + radius); // วาดเส้นตรงขึ้นไปที่มุมบนขวา
-    ctx.arcTo(x + fillWidth, y, x + fillWidth - radius, y, radius); // วาดส่วนโค้งที่มุมบนขวา
-    ctx.lineTo(x + radius, y); // วาดเส้นตรงไปที่มุมบนซ้าย
-    ctx.arcTo(x, y, x, y + radius, radius); // วาดส่วนโค้งที่มุมบนซ้าย
-    ctx.closePath(); // ปิดเส้นที่วาดเพื่อสร้างรูปร่างปิด
-    ctx.fill(); // เติมสีการเติมแบตเตอรี่
-
+    ctx.beginPath();
+    ctx.moveTo(x, y + radius);
+    ctx.lineTo(x, y + height - radius);
+    ctx.arcTo(x, y + height, x + radius, y + height, radius);
+    ctx.lineTo(x + fillWidth - radius, y + height);
+    ctx.arcTo(x + fillWidth, y + height, x + fillWidth, y + height - radius, radius);
+    ctx.lineTo(x + fillWidth, y + radius);
+    ctx.arcTo(x + fillWidth, y, x + fillWidth - radius, y, radius);
+    ctx.lineTo(x + radius, y);
+    ctx.arcTo(x, y, x, y + radius, radius);
+    ctx.closePath();
+    ctx.fill();
 }
-
-
-
-
 
 function togglePowerSavingMode() {
     powerSavingMode = !powerSavingMode;
     const powerSavingButton = document.getElementById('powerSavingMode');
-    powerSavingButton.classList.toggle('active', powerSavingMode);
+    if (powerSavingButton) powerSavingButton.classList.toggle('active', powerSavingMode);
     updateDisplay();
 }
+
 function updateBatteryDisplay() {
-    const batteryLevel = document.getElementById('battery').value;
-    document.getElementById('battery-level').innerText = batteryLevel;
+    const batteryLevel = document.getElementById('battery')?.value || '100';
+    const bl = document.getElementById('battery-level');
+    if (bl) bl.innerText = batteryLevel;
 }
 
-
-
-function downloadImage() {
+window.downloadImage = function() {
     const canvas = document.getElementById('canvas');
+    if(!canvas) return;
     const link = document.createElement('a');
     link.href = canvas.toDataURL('image/png');
-    link.download = 'canvas_image.png';
+    link.download = 'slip_kbank_live.png';
     link.click();
 }
 
-document.getElementById('generate').addEventListener('click', updateDisplay);
+document.getElementById('generate')?.addEventListener('click', updateDisplay);
 
 function drawImage(ctx, imageUrl, x, y, width, height) {
     const image = new Image();
