@@ -1,0 +1,2712 @@
+
+
+/* SukhumvitSet */
+@font-face {
+    font-family: 'SukhumvitSetThin';
+    src: url('/assets/fonts/SukhumvitSet-Thin.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SukhumvitSetLight';
+    src: url('/assets/fonts/SukhumvitSet-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SukhumvitSetRegular';
+    src: url('/assets/fonts/SukhumvitSet-Text.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SukhumvitSetMedium';
+    src: url('/assets/fonts/SukhumvitSet-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SukhumvitSetSemiBold';
+    src: url('/assets/fonts/SukhumvitSet-SemiBold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SukhumvitSetBold';
+    src: url('/assets/fonts/SukhumvitSet-Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SukhumvitSetExtraBold';
+    src: url('/assets/fonts/SukhumvitSet-Extra%20Bold.woff') format('woff');
+}
+
+/* SF Thonburi */
+
+@font-face {
+    font-family: 'SFThonburiLight';
+    src: url('/assets/fonts/SFThonburi.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SFThonburiRegular';
+    src: url('/assets/fonts/SFThonburi-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SFThonburiSemiBold';
+    src: url('/assets/fonts/SFThonburi-Semibold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SFThonburiBold';
+    src: url('/assets/fonts/SFThonburi-Bold.woff') format('woff');
+}
+
+/* sarabun */
+@font-face {
+    font-family: 'SarabunThin';
+    src: url('/assets/fonts/Sarabun-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunExtraLight';
+    src: url('/assets/fonts/Sarabun-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunLight';
+    src: url('/assets/fonts/Sarabun-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunRegular';
+    src: url('/assets/fonts/Sarabun-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunMedium';
+    src: url('/assets/fonts/Sarabun-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunSemiBold';
+    src: url('/assets/fonts/Sarabun-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunBold';
+    src: url('/assets/fonts/Sarabun-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunExtraBold';
+    src: url('/assets/fonts/Sarabun-ExtraBold.woff') format('woff');
+}
+
+/* Kanit */
+@font-face {
+    font-family: 'KanitThin';
+    src: url('/assets/fonts/Kanit-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitExtraLight';
+    src: url('/assets/fonts/Kanit-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitLight';
+    src: url('/assets/fonts/Kanit-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitRegular';
+    src: url('/assets/fonts/Kanit-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitMedium';
+    src: url('/assets/fonts/Kanit-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitSemiBold';
+    src: url('/assets/fonts/Kanit-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitBold';
+    src: url('/assets/fonts/Kanit-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitExtraBold';
+    src: url('/assets/fonts/Kanit-ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitBlack';
+    src: url('/assets/fonts/Kanit-Black.woff') format('woff');
+}
+
+/* NotoSansKR */
+@font-face {
+    font-family: 'NotoSansKRThin';
+    src: url('/assets/fonts/NotoSansKR-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRExtraLight';
+    src: url('/assets/fonts/NotoSansKR-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRLight';
+    src: url('/assets/fonts/NotoSansKR-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRRegular';
+    src: url('/assets/fonts/NotoSansKR-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRMedium';
+    src: url('/assets/fonts/NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRSemiBold';
+    src: url('/assets/fonts/NotoSansKR-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRBold';
+    src: url('/assets/fonts/NotoSansKR-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRExtraBold';
+    src: url('/assets/fonts/NotoSansKR-ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRBlack';
+    src: url('/assets/fonts/NotoSansKR-Black.woff') format('woff');
+}
+/* arial */
+@font-face {
+    font-family: 'arialRegular';
+    src: url('/assets/fonts/arial.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialRegularItalic';
+    src: url('/assets/fonts/ariali.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialMedium';
+    src: url('/assets/fonts/arialbd.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialSemiBold';
+    src: url('/assets/fonts/Arialn_0.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialBold';
+    src: url('/assets/fonts/ARIALNB.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialExtraBold';
+    src: url('/assets/fonts/ariblk.woff') format('woff');
+}
+
+/* Bangkok*/
+@font-face {
+    font-family: 'BangkokTime1';
+    src: url('/assets/fonts/Bangkok-Time1.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BangkokTime2';
+    src: url('/assets/fonts/Bangkok-Time2.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BangkokMoney';
+    src: url('/assets/fonts/Bangkok-Money.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BangkokTime';
+    src: url('/assets/fonts/Bangkok-Time.woff') format('woff');
+}
+/* BangkokMoney */
+@font-face {
+    font-family: 'BangkokMoneyRegular';
+    src: url('/assets/fonts/Bangkok-Money-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'BangkokMoneyMedium';
+    src: url('/assets/fonts/Bangkok-Money-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'BangkokMoneySemiBold';
+    src: url('/assets/fonts/Bangkok-Money-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'BangkokMoneyBold';
+    src: url('/assets/fonts/Bangkok-Money-Bold.woff') format('woff');
+}
+
+/* TTB-Money */
+@font-face {
+    font-family: 'TTBMoneyRegular';
+    src: url('/assets/fonts/TTB-Money-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoneyMedium';
+    src: url('/assets/fonts/TTB-Money-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoneySemiBold';
+    src: url('/assets/fonts/TTB-Money-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoneyBold';
+    src: url('/assets/fonts/TTB-Money-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoneyExtraBold';
+    src: url('/assets/fonts/TTB-Money-ExtraBold.woff') format('woff');
+}
+/* krungsri */
+@font-face {
+    font-family: 'krungsriRegular';
+    src: url('/assets/fonts/krungsri_con-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'krungsriMedium';
+    src: url('/assets/fonts/krungsri_con_med-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'krungsriBold';
+    src: url('/assets/fonts/krungsri_con_bol-webfont.woff') format('woff');
+}
+
+/* THSarabunNew */
+
+@font-face {
+    font-family: 'THSarabunRegular';
+    src: url('/assets/fonts/THSarabun.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunBold';
+    src: url('/assets/fonts/THSarabun-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunItalic';
+    src: url('/assets/fonts/THSarabun-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunBoldItalic';
+    src: url('/assets/fonts/THSarabun-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunNew';
+    src: url('/assets/fonts/THSarabunNew.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunNewBold';
+    src: url('/assets/fonts/THSarabunNew-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunNewItalic';
+    src: url('/assets/fonts/THSarabunNew-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunNewBoldItalic';
+    src: url('/assets/fonts/THSarabunNew-BoldItalic.woff') format('woff');
+}
+/*DBHelvethaicaMonX*/
+@font-face {
+    font-family: 'DBHelvethaicaMonX';
+    src: url('/assets/fonts/DBHelvethaicaMonX.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DBHelvethaicaMonXCond';
+    src: url('/assets/fonts/DBHelvethaicaMonXCond.woff') format('woff');
+}
+@font-face {
+    font-family: 'DBHelvethaicaMonXMed';
+    src: url('/assets/fonts/DBHelvethaicaMonXMed.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DBHelvethaicaMonXMedCond';
+    src: url('/assets/fonts/DBHelvethaicaMonXMedCond.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DBHelvethaicaMonXBold';
+    src: url('/assets/fonts/DBHelvethaicaMonXBd.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DBHelvethaicaMonXBoldCond';
+    src: url('/assets/fonts/DBHelvethaicaMonXBdCond.woff') format('woff');
+}
+
+/* Times New Roman*/
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('/assets/fonts/times.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TimesNewRomanBold';
+    src: url('/assets/fonts/timesbd.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TimesNewRomanItalic';
+    src: url('/assets/fonts/timesi.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TimesNewRomanBoldItalic';
+    src: url('/assets/fonts/timesbi.woff') format('woff');
+}
+
+/* IBM Plex sans thai */
+@font-face {
+    font-family: 'IBMPlexsansthaiThin';
+    src: url('/assets/fonts/IBMPlexSansThai-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiExtraLight';
+    src: url('/assets/fonts/IBMPlexSansThai-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiLight';
+    src: url('/assets/fonts/IBMPlexSansThai-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiRegular';
+    src: url('/assets/fonts/IBMPlexSansThai-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiMedium';
+    src: url('/assets/fonts/IBMPlexSansThai-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiSemiBold';
+    src: url('/assets/fonts/IBMPlexSansThai-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiBold';
+    src: url('/assets/fonts/IBMPlexSansThai-Bold.woff') format('woff');
+}
+
+
+/* Other*/
+@font-face {
+    font-family: 'DXKrungthaiSemiBold';
+    src: url('/assets/fonts/DX-Krungthai-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXKrungthaiThin';
+    src: url('/assets/fonts/DX-Krungthai-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXSCB';
+    src: url('/assets/fonts/DX-SCB.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXTTBBold';
+    src: url('/assets/fonts/DX-TTB-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXTTBRegular';
+    src: url('/assets/fonts/DX-TTB-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXKrungthaiBold';
+    src: url('/assets/fonts/DX-Krungthai-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXKrungthaiMedium';
+    src: url('/assets/fonts/DX-Krungthai-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXKrungthaiRegular';
+    src: url('/assets/fonts/DX-Krungthai-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoney';
+    src: url('/assets/fonts/TTB Money.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'CoreSansLight';
+    src: url('/assets/fonts/Core-Sans-E-W01-35-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'CoreSansBold';
+    src: url('/assets/fonts/Core-Sans-N-65-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BaacBold';
+    src: url('/assets/fonts/Baac_Bold.woff') format('woff');
+}
+
+/* kurious*/
+@font-face {
+    font-family: 'kuriousRegular';
+    src: url('/assets/fonts/kurious-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousMedium';
+    src: url('/assets/fonts/kurious-medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousSemiBold';
+    src: url('/assets/fonts/kurious-semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousBold';
+    src: url('/assets/fonts/kurious-Bold.woff') format('woff');
+}
+
+/* kurious*/
+@font-face {
+    font-family: 'kuriousRegular';
+    src: url('/assets/fonts/kurious-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousMedium';
+    src: url('/assets/fonts/kurious-medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousSemiBold';
+    src: url('/assets/fonts/kurious-semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousBold';
+    src: url('/assets/fonts/kurious-Bold.woff') format('woff');
+}
+
+
+/* ===========================
+   RESET & GLOBAL
+   =========================== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Kanit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background:
+        radial-gradient(circle at top left, #0f172a 0, #020617 45%),
+        radial-gradient(circle at bottom right, #020617 0, #020617 60%);
+    color: #e5e7eb;
+    min-height: 100vh;
+}
+
+/* ให้รูปไม่ล้นกรอบ */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ลิงก์ */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ===========================
+   PAGE WRAPPER
+   =========================== */
+
+.page {
+    width: 100%;
+    max-width: 980px;      /* ขนาดเฟรมรวมเล็กแบบ slipk */
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* ===========================
+   HEADER
+   =========================== */
+
+.app-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    background: linear-gradient(
+        120deg,
+        rgba(249, 115, 22, 0.96),
+        rgba(15, 23, 42, 0.95)
+    );
+
+}
+
+.app-logo {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: radial-gradient(circle at 30% 30%, #fbbf24 0, #f97316 45%, #0f172a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.app-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.app-title-group h1 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #f9fafb;
+}
+
+.app-title-group p {
+    margin: 2px 0 0;
+    font-size: 0.85rem;
+    color: #fed7aa;
+}
+
+/* ===========================
+   MAIN LAYOUT
+   =========================== */
+
+.container {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 18px;
+    align-items: flex-start;
+}
+
+/* ฝั่งพรีวิว */
+.display-container {
+    min-width: 0;
+}
+
+/* ฝั่งฟอร์ม */
+.form-container {
+    min-width: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(15, 23, 42, 0.98),
+        rgba(2, 6, 23, 0.98)
+    );
+    border-radius: 10px;
+    padding: 16px 18px 20px;
+    box-shadow:
+        0 18px 48px rgba(15, 23, 42, 0.95),
+        0 0 0 1px rgba(251, 146, 60, 0.30);
+    backdrop-filter: blur(12px);
+}
+
+/* ===========================
+   DISPLAY (CANVAS + ปุ่ม)
+   =========================== */
+
+.display {
+    background: radial-gradient(circle at top, #0f172a 0, #020617 55%, #000 100%);
+    border-radius: 20px;
+    padding: 14px 14px 16px;
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.9),
+        0 0 0 1px rgba(15, 23, 42, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.display canvas {
+    max-width: 100%;
+    width: 360px;
+    height: auto;
+    border-radius: 0px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.9);
+    background: #ffffff;
+    border: 0px solid rgba(15, 23, 42, 0.32);
+}
+
+/* ปุ่ม DOWNLOAD โทนส้ม */
+.btn-download {
+    width: 62%;
+    max-width: 140px;
+    margin-top: 16px;
+    padding: 9px 16px;
+    background: linear-gradient(135deg, #fb923c, #f97316);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+   
+ 
+}
+
+.btn-download:hover {
+    transform: translateY(-1px) scale(1.01);
+    filter: brightness(1.05);
+   
+}
+
+.btn-download:active {
+    transform: translateY(1px) scale(0.99);
+   
+}
+
+/* ===========================
+   FORM CONTENTS
+   =========================== */
+
+.form-title {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #f9fafb;
+}
+
+.form-container > .form-title + * {
+    margin-top: 2px;
+}
+
+/* 2 คอลัมน์เหมือน slipk: ข้อมูลผู้โอน / ข้อมูลผู้รับ */
+.form-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 10px 16px;
+    margin-bottom: 10px;
+}
+
+.form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-radius: 14px;
+    padding: 10px 12px 12px;
+    border: 1px solid rgba(59, 130, 246, 0.85);
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.65);
+}
+
+.form-block h3 {
+    margin: 0 0 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #bfdbfe;
+}
+
+/* บล็อกที่ต้องการให้กินเต็มแถว เช่น จำนวนเงิน & เวลา, QRCode */
+.form-block.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-block label {
+    display: block;
+    margin: 6px 0 2px;
+    font-size: 0.8rem;
+    color: #e5e7eb;
+}
+
+.form-block input[type="text"],
+.form-block input[type="datetime-local"],
+.form-block select,
+.form-block input[type="file"] {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(96, 165, 250, 0.75);
+    padding: 7px 10px;
+    font-size: 0.86rem;
+    font-family: inherit;
+    color: #eff6ff;
+    background: radial-gradient(
+        circle at top left,
+        rgba(37, 99, 235, 0.9),
+        rgba(15, 23, 42, 0.98)
+    );
+    outline: none;
+    transition:
+        border-color 0.12s ease,
+        box-shadow 0.12s ease,
+        background 0.12s ease;
+}
+
+.form-block input::placeholder {
+    color: #bfdbfe;
+}
+
+/* โฟกัสเป็นเส้นส้ม */
+.form-block input[type="text"]:focus,
+.form-block input[type="datetime-local"]:focus,
+.form-block select:focus,
+.form-block input[type="file"]:focus {
+    border-color: #f97316;
+    box-shadow:
+        0 0 0 1px rgba(249, 115, 22, 0.95),
+        0 0 0 8px rgba(249, 115, 22, 0.30);
+    background: radial-gradient(circle at top left, #d1830d, #d1830d);
+}
+
+/* ลูกศร select */
+.form-block select {
+    appearance: none;
+    background-image:
+        linear-gradient(45deg, transparent 50%, #bfdbfe 50%),
+        linear-gradient(135deg, #bfdbfe 50%, transparent 50%);
+    background-position:
+        calc(100% - 14px) calc(50% - 3px),
+        calc(100% - 9px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px;
+    background-repeat: no-repeat;
+}
+
+/* note / คำอธิบายใต้ QR */
+.note {
+    margin: 6px 0 0;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #bae6fd;
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+
+.app-footer {
+    margin-top: 4px;
+    padding: 6px 2px 0;
+    font-size: 0.75rem;
+    color: #fec89a;
+    text-align: center;
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+@media (max-width: 1024px) {
+    .page {
+        max-width: 100%;
+        padding: 12px 10px 18px;
+    }
+
+    .container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 14px;
+    }
+
+    /* ให้ preview อยู่บน form เวลาในมือถือ */
+    .display-container {
+        order: -1;
+    }
+
+    .form-container {
+        padding: 14px 14px 16px;
+    }
+}
+
+@media (max-width: 640px) {
+    .app-header {
+        padding: 10px 12px;
+        gap: 10px;
+    }
+
+    .app-logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    .app-title-group h1 {
+        font-size: 1.05rem;
+    }
+
+    .app-title-group p {
+        font-size: 0.78rem;
+    }
+
+    .form-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .display {
+        padding: 10px 10px 12px;
+        border-radius: 16px;
+    }
+
+    .display canvas {
+        border-radius: 0px;
+    }
+
+    .btn-download {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+}
+
+
+/* ===========================
+   RESET & GLOBAL
+   =========================== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Kanit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background:
+        radial-gradient(circle at top left, #064e3b 0, #020617 45%),
+        radial-gradient(circle at bottom right, #022c22 0, #020617 60%);
+    color: #e5e7eb;
+    min-height: 100vh;
+}
+
+/* ให้รูปไม่ล้นกรอบ */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ลิงก์ */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ===========================
+   PAGE WRAPPER
+   =========================== */
+
+.page {
+    width: 100%;
+    max-width: 980px;      /* ขนาดเฟรมรวมเล็กแบบ slipk */
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* ===========================
+   HEADER
+   =========================== */
+
+.app-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 16px;
+    border-radius: 16px;
+    background: linear-gradient(
+        120deg,
+        rgba(6, 78, 59, 0.96),
+        rgba(5, 46, 22, 0.9)
+    );
+    
+}
+
+.app-logo {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: radial-gradient(circle at 30% 30%, #4ade80 0, #065f46 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.app-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.app-title-group h1 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #f9fafb;
+}
+
+.app-title-group p {
+    margin: 2px 0 0;
+    font-size: 0.85rem;
+    color: #bbf7d0;
+}
+
+/* ===========================
+   MAIN LAYOUT
+   =========================== */
+
+.container {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 18px;
+    align-items: flex-start;
+}
+
+/* ฝั่งพรีวิว */
+.display-container {
+    min-width: 0;
+}
+
+/* ฝั่งฟอร์ม */
+.form-container {
+    min-width: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(8, 47, 35, 0.98),
+        rgba(4, 24, 18, 0.98)
+    );
+    border-radius: 18px;
+    padding: 16px 18px 20px;
+    box-shadow:
+        0 18px 48px rgba(4, 24, 18, 0.92),
+        0 0 0 1px rgba(52, 211, 153, 0.25);
+    backdrop-filter: blur(12px);
+}
+
+/* ===========================
+   DISPLAY (CANVAS + ปุ่ม)
+   =========================== */
+
+.display {
+    background: radial-gradient(circle at top, #022c22 0, #020617 55%, #000 100%);
+    border-radius: 20px;
+    padding: 14px 14px 16px;
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.9),
+        0 0 0 1px rgba(15, 23, 42, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+
+.display canvas {
+    max-width: 100%;
+    width: 380px;
+    height: auto;
+    border-radius: 0px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.9);
+    background: #ffffff;
+    border: 0px solid rgba(15, 23, 42, 0.32);
+}
+
+/* ปุ่ม DOWNLOAD เขียวอ่อน */
+.btn-download {
+    width: 72%;
+    max-width: 140px;
+    margin-top: 16px;
+    padding: 9px 16px;
+    background: linear-gradient(135deg, #4ade80, #22c55e);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  
+}
+
+.btn-download:hover {
+    transform: translateY(-1px) scale(1.01);
+    filter: brightness(1.05);
+    
+}
+
+.btn-download:active {
+    transform: translateY(1px) scale(0.99);
+   
+}
+
+/* ===========================
+   FORM CONTENTS
+   =========================== */
+
+.form-title {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #f9fafb;
+}
+
+.form-container > .form-title + * {
+    margin-top: 2px;
+}
+
+/* 2 คอลัมน์เหมือน slipk: ข้อมูลผู้โอน / ข้อมูลผู้รับ */
+.form-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 10px 16px;
+    margin-bottom: 10px;
+}
+
+.form-block {
+    background: radial-gradient(circle at top left, #022c22 0, #020617 55%);
+    border-radius: 5px;
+    padding: 10px 12px 12px;
+    border: 1px solid rgba(15, 118, 110, 0.9);
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.65);
+}
+
+.form-block h3 {
+    margin: 0 0 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #bbf7d0;
+}
+
+/* บล็อกที่ต้องการให้กินเต็มแถว เช่น จำนวนเงิน & เวลา, QRCode */
+.form-block.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-block label {
+    display: block;
+    margin: 6px 0 2px;
+    font-size: 0.8rem;
+    color: #d1fae5;
+}
+
+.form-block input[type="text"],
+.form-block input[type="datetime-local"],
+.form-block select,
+.form-block input[type="file"] {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(52, 211, 153, 0.55);
+    padding: 7px 10px;
+    font-size: 0.86rem;
+    font-family: inherit;
+    color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(6, 95, 70, 0.9),
+        rgba(5, 46, 22, 0.96)
+    );
+    outline: none;
+    transition:
+        border-color 0.12s ease,
+        box-shadow 0.12s ease,
+        background 0.12s ease;
+}
+
+.form-block input::placeholder {
+    color: #6ee7b7;
+}
+
+/* โฟกัสเป็นเส้นเขียวอ่อน */
+.form-block input[type="text"]:focus,
+.form-block input[type="datetime-local"]:focus,
+.form-block select:focus,
+.form-block input[type="file"]:focus {
+    border-color: #4ade80;
+    box-shadow:
+        0 0 0 1px rgba(74, 222, 128, 0.95),
+        0 0 0 8px rgba(34, 197, 94, 0.25);
+    background: radial-gradient(circle at top left, #022c22, #022c22);
+}
+
+/* ลูกศร select */
+.form-block select {
+    appearance: none;
+    background-image:
+        linear-gradient(45deg, transparent 50%, #bbf7d0 50%),
+        linear-gradient(135deg, #bbf7d0 50%, transparent 50%);
+    background-position:
+        calc(10% - 14px) calc(50% - 3px),
+        calc(10% - 9px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px;
+    background-repeat: no-repeat;
+}
+
+/* note / คำอธิบายใต้ QR */
+.note {
+    margin: 6px 0 0;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #a7f3d0;
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+
+.app-footer {
+    margin-top: 4px;
+    padding: 6px 2px 0;
+    font-size: 0.75rem;
+    color: #6ee7b7;
+    text-align: center;
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+@media (max-width: 1024px) {
+    .page {
+        max-width: 100%;
+        padding: 12px 10px 18px;
+    }
+
+    .container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 14px;
+    }
+
+    /* ให้ preview อยู่บน form เวลาในมือถือ */
+    .display-container {
+        order: -1;
+    }
+
+    .form-container {
+        padding: 14px 14px 16px;
+    }
+}
+
+@media (max-width: 640px) {
+    .app-header {
+        padding: 10px 12px;
+        gap: 10px;
+    }
+
+    .app-logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .app-title-group h1 {
+        font-size: 1.05rem;
+    }
+
+    .app-title-group p {
+        font-size: 0.78rem;
+    }
+
+    .form-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .display {
+        padding: 10px 10px 12px;
+        border-radius: 5px;
+    }
+
+    .display canvas {
+        border-radius: 0px;
+    }
+
+    .btn-download {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+}
+
+
+/* ===========================
+   THEME: KBank
+   =========================== */
+
+body.theme-kbank {
+    background:
+        radial-gradient(circle at top left, #022c22 0, #020617 45%),
+        radial-gradient(circle at bottom right, #064e3b 0, #020617 60%);
+}
+
+body.theme-kbank .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(22, 163, 74, 0.96),
+        rgba(4, 47, 46, 0.95)
+    );
+   
+}
+
+body.theme-kbank .app-logo {
+    background: radial-gradient(circle at 30% 30%, #bbf7d0 0, #16a34a 45%, #022c22 100%);
+}
+
+body.theme-kbank .app-title-group p {
+    color: #bbf7d0;
+}
+
+body.theme-kbank .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(6, 78, 59, 0.98),
+        rgba(4, 47, 46, 0.98)
+    );
+    box-shadow:
+        0 18px 48px rgba(4, 47, 46, 0.95),
+        0 0 0 1px rgba(22, 163, 74, 0.35);
+}
+
+body.theme-kbank .display {
+    background: radial-gradient(circle at top, #022c22 0, #020617 55%, #000 100%);
+}
+
+body.theme-kbank .btn-download {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    box-shadow: 0 14px 30px rgba(22, 163, 74, 0.7);
+}
+
+body.theme-kbank .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(22, 163, 74, 0.9);
+}
+
+body.theme-kbank .btn-download:active {
+    box-shadow: 0 10px 24px rgba(6, 95, 70, 0.95);
+}
+
+body.theme-kbank .form-block {
+    background: radial-gradient(circle at top left, #098568 0, #098568 55%);
+    border-color: rgba(22, 163, 74, 0.9);
+}
+
+body.theme-kbank .form-block h3 {
+    color: #bbf7d0;
+}
+
+body.theme-kbank .form-block label {
+    color: #d1fae5;
+}
+
+body.theme-kbank .form-block input[type="text"],
+body.theme-kbank .form-block input[type="datetime-local"],
+body.theme-kbank .form-block select,
+body.theme-kbank .form-block input[type="file"] {
+    border-color: rgba(34, 197, 94, 0.65);
+    color: #2e2c2c;
+    background: radial-gradient(
+        circle at top left,
+        rgba(5, 150, 105, 0.9),
+        rgba(4, 47, 46, 0.98)
+    );
+}
+
+body.theme-kbank .form-block input::placeholder {
+    color: #6ee7b7;
+}
+
+body.theme-kbank .form-block input[type="text"]:focus,
+body.theme-kbank .form-block input[type="datetime-local"]:focus,
+body.theme-kbank .form-block select:focus,
+body.theme-kbank .form-block input[type="file"]:focus {
+    border-color: #303131;
+    box-shadow:
+        0 0 0 1px rgba(34, 197, 94, 0.95),
+        0 0 0 8px rgba(34, 197, 94, 0.25);
+    background: radial-gradient(circle at top left, #098568, #098568);
+}
+
+body.theme-kbank .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #bbf7d0 50%),
+        linear-gradient(135deg, #bbf7d0 50%, transparent 50%);
+}
+
+body.theme-kbank .note {
+    color: #a7f3d0;
+}
+
+body.theme-kbank .app-footer {
+    color: #6ee7b7;
+}
+
+
+/* ===========================
+   THEME: SCB
+   =========================== */
+
+body.theme-scb {
+    background:
+        radial-gradient(circle at top left, #4c1d95 0, #020617 45%),
+        radial-gradient(circle at bottom right, #1e1037 0, #020617 60%);
+}
+
+body.theme-scb .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(124, 58, 237, 0.96),
+        rgba(76, 29, 149, 0.96)
+    );
+
+}
+
+body.theme-scb .app-logo {
+    background: radial-gradient(circle at 30% 30%, #5a15fa 0, #2806a5 40%, #4c1d95 100%);
+}
+
+body.theme-scb .app-title-group p {
+    color: #ddd6fe;
+}
+
+body.theme-scb .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(30, 64, 175, 0.98),
+        rgba(15, 23, 42, 0.98)
+    );
+    box-shadow:
+        0 18px 48px rgba(15, 23, 42, 0.96),
+        0 0 0 1px rgba(129, 140, 248, 0.4);
+}
+
+body.theme-scb .display {
+    background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
+}
+
+body.theme-scb .btn-download {
+    background: linear-gradient(135deg, #a855f7, #7c3aed);
+    box-shadow: 0 14px 30px rgba(129, 140, 248, 0.75);
+}
+
+body.theme-scb .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(129, 140, 248, 0.9);
+}
+
+body.theme-scb .btn-download:active {
+    box-shadow: 0 10px 24px rgba(55, 48, 163, 0.95);
+}
+
+body.theme-scb .form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-color: #818cf8e6;
+}
+
+body.theme-scb .form-block h3 {
+    color: #ddd6fe;
+}
+
+body.theme-scb .form-block label {
+    color: #e5e7eb;
+}
+
+body.theme-scb .form-block input[type="text"],
+body.theme-scb .form-block input[type="datetime-local"],
+body.theme-scb .form-block select,
+body.theme-scb .form-block input[type="file"] {
+    border-color: rgba(167, 139, 250, 0.75);
+    color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(79, 70, 229, 0.94),
+        rgba(30, 64, 175, 0.98)
+    );
+}
+
+body.theme-scb .form-block input::placeholder {
+    color: #c4b5fd;
+}
+
+body.theme-scb .form-block input[type="text"]:focus,
+body.theme-scb .form-block input[type="datetime-local"]:focus,
+body.theme-scb .form-block select:focus,
+body.theme-scb .form-block input[type="file"]:focus {
+    border-color: #a855f7;
+    box-shadow:
+        0 0 0 1px rgba(168, 85, 247, 0.95),
+        0 0 0 8px rgba(168, 85, 247, 0.3);
+    background: radial-gradient(circle at top left, #818cf8e6, #818cf8e6);
+}
+
+body.theme-scb .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #e9d5ff 50%),
+        linear-gradient(135deg, #e9d5ff 50%, transparent 50%);
+}
+
+body.theme-scb .note {
+    color: #e9d5ff;
+}
+
+body.theme-scb .app-footer {
+    color: #c4b5fd;
+}
+
+
+/* ===========================
+   THEME: TTB
+   =========================== */
+
+body.theme-ttb {
+    background:
+        radial-gradient(circle at top left, #0f172a 0, #020617 45%),
+        radial-gradient(circle at bottom right, #020617 0, #020617 60%);
+}
+
+body.theme-ttb .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(249, 115, 22, 0.96),
+        rgba(37, 99, 235, 0.96)
+    );
+
+}
+
+body.theme-ttb .app-logo {
+    background: radial-gradient(circle at 30% 30%, #facc15 0, #fb923c 40%, #1d4ed8 100%);
+}
+
+body.theme-ttb .app-title-group p {
+    color: #fee2e2;
+}
+
+body.theme-ttb .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(15, 23, 42, 0.98),
+        rgba(2, 6, 23, 0.98)
+    );
+    box-shadow:
+        0 18px 48px rgba(15, 23, 42, 0.96),
+        0 0 0 1px rgba(37, 99, 235, 0.4);
+}
+
+body.theme-ttb .display {
+    background: radial-gradient(circle at top, #020617 0, #020617 55%, #000 100%);
+}
+
+body.theme-ttb .btn-download {
+    background: linear-gradient(135deg, #fb923c, #f97316);
+    box-shadow: 0 14px 30px rgba(249, 115, 22, 0.75);
+}
+
+body.theme-ttb .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(249, 115, 22, 0.9);
+}
+
+body.theme-ttb .btn-download:active {
+    box-shadow: 0 10px 24px rgba(154, 52, 18, 0.95);
+}
+
+body.theme-ttb .form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-color: rgba(59, 130, 246, 0.9);
+}
+
+body.theme-ttb .form-block h3 {
+    color: #bfdbfe;
+}
+
+body.theme-ttb .form-block label {
+    color: #e5e7eb;
+}
+
+body.theme-ttb .form-block input[type="text"],
+body.theme-ttb .form-block input[type="datetime-local"],
+body.theme-ttb .form-block select,
+body.theme-ttb .form-block input[type="file"] {
+    border-color: rgba(96, 165, 250, 0.75);
+    color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(37, 99, 235, 0.94),
+        rgba(15, 23, 42, 0.98)
+    );
+}
+
+body.theme-ttb .form-block input::placeholder {
+    color: #bfdbfe;
+}
+
+body.theme-ttb .form-block input[type="text"]:focus,
+body.theme-ttb .form-block input[type="datetime-local"]:focus,
+body.theme-ttb .form-block select:focus,
+body.theme-ttb .form-block input[type="file"]:focus {
+    border-color: #fb923c;
+    box-shadow:
+        0 0 0 1px rgba(249, 115, 22, 0.95),
+        0 0 0 8px rgba(249, 115, 22, 0.3);
+    background: radial-gradient(circle at top left, #fb923c, #fb923c);
+}
+
+body.theme-ttb .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #bfdbfe 50%),
+        linear-gradient(135deg, #bfdbfe 50%, transparent 50%);
+}
+
+body.theme-ttb .note {
+    color: #bae6fd;
+}
+
+body.theme-ttb .app-footer {
+    color: #fed7aa;
+}
+
+
+/* ===========================
+   THEME: BAAC (ธ.ก.ส.)
+   =========================== */
+
+body.theme-baac {
+    background:
+        radial-gradient(circle at top left, #14532d 0, #020617 45%),
+        radial-gradient(circle at bottom right, #052e16 0, #020617 60%);
+}
+
+body.theme-baac .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(34, 197, 94, 0.96),
+        rgba(21, 128, 61, 0.96)
+    );
+
+}
+
+body.theme-baac .app-logo {
+    background: radial-gradient(circle at 30% 30%, #bef264 0, #22c55e 40%, #14532d 100%);
+}
+
+body.theme-baac .app-title-group p {
+    color: #d9f99d;
+}
+
+body.theme-baac .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(21, 128, 61, 0.98),
+        rgba(6, 78, 59, 0.98)
+    );
+    box-shadow:
+        0 18px 48px rgba(4, 47, 46, 0.96),
+        0 0 0 1px rgba(132, 204, 22, 0.45);
+}
+
+body.theme-baac .display {
+    background: radial-gradient(circle at top, #022c22 0, #020617 55%, #000 100%);
+}
+
+body.theme-baac .btn-download {
+    background: linear-gradient(135deg, #84cc16, #22c55e);
+    box-shadow: 0 14px 30px rgba(132, 204, 22, 0.75);
+}
+
+body.theme-baac .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(132, 204, 22, 0.9);
+}
+
+body.theme-baac .btn-download:active {
+    box-shadow: 0 10px 24px rgba(54, 83, 20, 0.95);
+}
+
+body.theme-baac .form-block {
+    background: radial-gradient(circle at top left, #052e16 0, #020617 55%);
+    border-color: rgba(101, 163, 13, 0.9);
+}
+
+body.theme-baac .form-block h3 {
+    color: #d9f99d;
+}
+
+body.theme-baac .form-block label {
+    color: #dcfce7;
+}
+
+body.theme-baac .form-block input[type="text"],
+body.theme-baac .form-block input[type="datetime-local"],
+body.theme-baac .form-block select,
+body.theme-baac .form-block input[type="file"] {
+    border-color: rgba(163, 230, 53, 0.75);
+   color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(34, 197, 94, 0.9),
+        rgba(22, 101, 52, 0.98)
+    );
+}
+
+body.theme-baac .form-block input::placeholder {
+    color: #bef264;
+}
+
+body.theme-baac .form-block input[type="text"]:focus,
+body.theme-baac .form-block input[type="datetime-local"]:focus,
+body.theme-baac .form-block select:focus,
+body.theme-baac .form-block input[type="file"]:focus {
+    border-color: #84cc16;
+    box-shadow:
+        0 0 0 1px rgba(132, 204, 22, 0.95),
+        0 0 0 8px rgba(132, 204, 22, 0.28);
+    background: radial-gradient(circle at top left, #098568, #098568);
+}
+
+body.theme-baac .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #d9f99d 50%),
+        linear-gradient(135deg, #d9f99d 50%, transparent 50%);
+}
+
+body.theme-baac .note {
+    color: #bef264;
+}
+
+body.theme-baac .app-footer {
+    color: #bef264;
+}
+
+/* ===========================
+   THEME: BAY (กรุงศรี)
+   =========================== */
+
+body.theme-bay {
+    background:
+        radial-gradient(circle at top left, #78350f 0, #020617 45%),
+        radial-gradient(circle at bottom right, #030712 0, #020617 60%);
+}
+
+body.theme-bay .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(250, 204, 21, 0.97),
+        rgba(245, 158, 11, 0.96)
+    );
+
+}
+
+body.theme-bay .app-logo {
+    background: radial-gradient(circle at 30% 30%, #facc15 0, #f59e0b 40%, #78350f 100%);
+}
+
+body.theme-bay .app-title-group p {
+    color: #fef3c7;
+}
+
+body.theme-bay .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(30, 64, 175, 0.96),
+        rgba(15, 23, 42, 0.98)
+    );
+    box-shadow:
+        0 18px 48px rgba(15, 23, 42, 0.96),
+        0 0 0 1px rgba(251, 191, 36, 0.45);
+}
+
+body.theme-bay .display {
+    background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
+}
+
+body.theme-bay .btn-download {
+    background: linear-gradient(135deg, #facc15, #f59e0b);
+    box-shadow: 0 14px 30px rgba(245, 158, 11, 0.8);
+}
+
+body.theme-bay .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(245, 158, 11, 0.95);
+}
+
+body.theme-bay .btn-download:active {
+    box-shadow: 0 10px 24px rgba(120, 53, 15, 0.95);
+}
+
+body.theme-bay .form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-color: rgba(252, 211, 77, 0.9);
+}
+
+body.theme-bay .form-block h3 {
+    color: #fde68a;
+}
+
+body.theme-bay .form-block label {
+    color: #e5e7eb;
+}
+
+body.theme-bay .form-block input[type="text"],
+body.theme-bay .form-block input[type="datetime-local"],
+body.theme-bay .form-block select,
+body.theme-bay .form-block input[type="file"] {
+    border-color: rgba(252, 211, 77, 0.8);
+   color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(245, 158, 11, 0.95),
+        rgba(120, 53, 15, 0.98)
+    );
+}
+
+body.theme-bay .form-block input::placeholder {
+    color: #facc15;
+}
+
+body.theme-bay .form-block input[type="text"]:focus,
+body.theme-bay .form-block input[type="datetime-local"]:focus,
+body.theme-bay .form-block select:focus,
+body.theme-bay .form-block input[type="file"]:focus {
+    border-color: #facc15;
+    box-shadow:
+        0 0 0 1px rgba(250, 204, 21, 0.96),
+        0 0 0 8px rgba(250, 204, 21, 0.32);
+    background: radial-gradient(circle at top left, #dabf28, #dabf28);
+}
+
+body.theme-bay .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #fef3c7 50%),
+        linear-gradient(135deg, #fef3c7 50%, transparent 50%);
+}
+
+body.theme-bay .note {
+    color: #fde68a;
+}
+
+body.theme-bay .app-footer {
+    color: #facc15;
+}
+
+/* ===========================
+   THEME: BBL (กรุงเทพ)
+   =========================== */
+
+body.theme-bbl {
+    background:
+        radial-gradient(circle at top left, #1d4ed8 0, #020617 45%),
+        radial-gradient(circle at bottom right, #020617 0, #020617 60%);
+}
+
+body.theme-bbl .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(59, 130, 246, 0.98),
+        rgba(30, 64, 175, 0.98)
+    );
+
+}
+
+body.theme-bbl .app-logo {
+    background: radial-gradient(circle at 30% 30%, #eff6ff 0, #3b82f6 40%, #1d4ed8 100%);
+}
+
+body.theme-bbl .app-title-group p {
+    color: #bfdbfe;
+}
+
+body.theme-bbl .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(15, 23, 42, 0.98),
+        rgba(8, 47, 73, 0.98)
+    );
+
+}
+
+body.theme-bbl .display {
+    background: radial-gradient(circle at top, #020617 0, #020617 55%, #000 100%);
+}
+
+body.theme-bbl .btn-download {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    box-shadow: 0 14px 30px rgba(37, 99, 235, 0.8);
+}
+
+body.theme-bbl .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(37, 99, 235, 0.95);
+}
+
+body.theme-bbl .btn-download:active {
+    box-shadow: 0 10px 24px rgba(30, 64, 175, 0.96);
+}
+
+body.theme-bbl .form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-color: rgba(59, 130, 246, 0.9);
+}
+
+body.theme-bbl .form-block h3 {
+    color: #bfdbfe;
+}
+
+body.theme-bbl .form-block label {
+    color: #e5e7eb;
+}
+
+body.theme-bbl .form-block input[type="text"],
+body.theme-bbl .form-block input[type="datetime-local"],
+body.theme-bbl .form-block select,
+body.theme-bbl .form-block input[type="file"] {
+    border-color: rgba(59, 130, 246, 0.8);
+    color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(37, 99, 235, 0.96),
+        rgba(15, 23, 42, 0.98)
+    );
+}
+
+body.theme-bbl .form-block input::placeholder {
+    color: #bfdbfe;
+}
+
+body.theme-bbl .form-block input[type="text"]:focus,
+body.theme-bbl .form-block input[type="datetime-local"]:focus,
+body.theme-bbl .form-block select:focus,
+body.theme-bbl .form-block input[type="file"]:focus {
+    border-color: #60a5fa;
+    box-shadow:
+        0 0 0 1px rgba(96, 165, 250, 0.96),
+        0 0 0 8px rgba(37, 99, 235, 0.28);
+    background: radial-gradient(circle at top left, #1856b3, #1856b3);
+}
+
+body.theme-bbl .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #dbeafe 50%),
+        linear-gradient(135deg, #dbeafe 50%, transparent 50%);
+}
+
+body.theme-bbl .note {
+    color: #bfdbfe;
+}
+
+body.theme-bbl .app-footer {
+    color: #93c5fd;
+}
+
+/* ===========================
+   THEME: KTB (กรุงไทย)
+   =========================== */
+
+body.theme-ktb {
+    background:
+        radial-gradient(circle at top left, #0ea5e9 0, #020617 45%),
+        radial-gradient(circle at bottom right, #0369a1 0, #020617 60%);
+}
+
+body.theme-ktb .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(56, 189, 248, 0.98),
+        rgba(59, 130, 246, 0.98)
+    );
+    box-shadow:
+        0 18px 40px rgba(12, 74, 110, 0.98),
+        0 0 0 1px rgba(125, 211, 252, 0.7);
+}
+
+body.theme-ktb .app-logo {
+    background: radial-gradient(circle at 30% 30%, #e0f2fe 0, #38bdf8 40%, #1d4ed8 100%);
+}
+
+body.theme-ktb .app-title-group p {
+    color: #e0f2fe;
+}
+
+body.theme-ktb .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 47, 73, 0.98),
+        rgba(15, 23, 42, 0.98)
+    );
+
+}
+
+body.theme-ktb .display {
+    background: radial-gradient(circle at top, #020617 0, #020617 55%, #000 100%);
+}
+
+body.theme-ktb .btn-download {
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    box-shadow: 0 14px 30px rgba(56, 189, 248, 0.8);
+}
+
+body.theme-ktb .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(56, 189, 248, 0.95);
+}
+
+body.theme-ktb .btn-download:active {
+    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.96);
+}
+
+body.theme-ktb .form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-color: rgba(56, 189, 248, 0.9);
+}
+
+body.theme-ktb .form-block h3 {
+    color: #bae6fd;
+}
+
+body.theme-ktb .form-block label {
+    color: #e5e7eb;
+}
+
+body.theme-ktb .form-block input[type="text"],
+body.theme-ktb .form-block input[type="datetime-local"],
+body.theme-ktb .form-block select,
+body.theme-ktb .form-block input[type="file"] {
+    border-color: rgba(56, 189, 248, 0.8);
+    color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(37, 99, 235, 0.96),
+        rgba(8, 47, 73, 0.98)
+    );
+}
+
+body.theme-ktb .form-block input::placeholder {
+    color: #bae6fd;
+}
+
+body.theme-ktb .form-block input[type="text"]:focus,
+body.theme-ktb .form-block input[type="datetime-local"]:focus,
+body.theme-ktb .form-block select:focus,
+body.theme-ktb .form-block input[type="file"]:focus {
+    border-color: #38bdf8;
+    box-shadow:
+        0 0 0 1px rgba(56, 189, 248, 0.96),
+        0 0 0 8px rgba(56, 189, 248, 0.3);
+    background: radial-gradient(circle at top left, #1856b3, #1856b3);
+}
+
+body.theme-ktb .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #e0f2fe 50%),
+        linear-gradient(135deg, #e0f2fe 50%, transparent 50%);
+}
+
+body.theme-ktb .note {
+    color: #bae6fd;
+}
+
+body.theme-ktb .app-footer {
+    color: #7dd3fc;
+}
+
+/* ===========================
+   THEME: GSB (ออมสิน)
+   =========================== */
+
+body.theme-gsb {
+    background:
+        radial-gradient(circle at top left, #9d174d 0, #020617 45%),
+        radial-gradient(circle at bottom right, #4c0519 0, #020617 60%);
+}
+
+body.theme-gsb .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(236, 72, 153, 0.98),
+        rgba(190, 24, 93, 0.98)
+    );
+
+}
+
+body.theme-gsb .app-logo {
+    background: radial-gradient(circle at 30% 30%, #f9a8d4 0, #ec4899 40%, #9d174d 100%);
+}
+
+body.theme-gsb .app-title-group p {
+    color: #fce7f3;
+}
+
+body.theme-gsb .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(76, 5, 25, 0.98),
+        rgba(30, 7, 37, 0.98)
+    );
+
+}
+
+body.theme-gsb .display {
+    background: radial-gradient(circle at top, #020617 0, #020617 55%, #000 100%);
+}
+
+body.theme-gsb .btn-download {
+    background: linear-gradient(135deg, #f472b6, #ec4899);
+    box-shadow: 0 14px 30px rgba(236, 72, 153, 0.8);
+}
+
+body.theme-gsb .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(236, 72, 153, 0.95);
+}
+
+body.theme-gsb .btn-download:active {
+    box-shadow: 0 10px 24px rgba(131, 24, 67, 0.96);
+}
+
+body.theme-gsb .form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-color: rgba(244, 114, 182, 0.9);
+}
+
+body.theme-gsb .form-block h3 {
+    color: #f9a8d4;
+}
+
+body.theme-gsb .form-block label {
+    color: #fee2e2;
+}
+
+body.theme-gsb .form-block input[type="text"],
+body.theme-gsb .form-block input[type="datetime-local"],
+body.theme-gsb .form-block select,
+body.theme-gsb .form-block input[type="file"] {
+    border-color: rgba(244, 114, 182, 0.8);
+    color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(190, 24, 93, 0.96),
+        rgba(76, 5, 25, 0.98)
+    );
+}
+
+body.theme-gsb .form-block input::placeholder {
+    color: #f9a8d4;
+}
+
+body.theme-gsb .form-block input[type="text"]:focus,
+body.theme-gsb .form-block input[type="datetime-local"]:focus,
+body.theme-gsb .form-block select:focus,
+body.theme-gsb .form-block input[type="file"]:focus {
+    border-color: #f472b6;
+    box-shadow:
+        0 0 0 1px rgba(244, 114, 182, 0.96),
+        0 0 0 8px rgba(244, 114, 182, 0.3);
+    background: radial-gradient(circle at top left, #e429bb, #e429bb);
+}
+
+body.theme-gsb .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #fce7f3 50%),
+        linear-gradient(135deg, #fce7f3 50%, transparent 50%);
+}
+
+body.theme-gsb .note {
+    color: #f9a8d4;
+}
+
+body.theme-gsb .app-footer {
+    color: #f9a8d4;
+}
+
+/* ===========================
+   THEME: CIMB
+   =========================== */
+
+body.theme-cimb {
+    background:
+        radial-gradient(circle at top left, #7f1d1d 0, #020617 45%),
+        radial-gradient(circle at bottom right, #450a0a 0, #020617 60%);
+}
+
+body.theme-cimb .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(220, 38, 38, 0.98),
+        rgba(127, 29, 29, 0.98)
+    );
+    box-shadow:
+        0 18px 40px rgba(69, 10, 10, 0.96),
+        0 0 0 1px rgba(254, 202, 202, 0.75);
+}
+
+body.theme-cimb .app-logo {
+    background: radial-gradient(circle at 30% 30%, #fecaca 0, #f87171 40%, #7f1d1d 100%);
+}
+
+body.theme-cimb .app-title-group p {
+    color: #fee2e2;
+}
+
+body.theme-cimb .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(69, 10, 10, 0.98),
+        rgba(30, 7, 37, 0.98)
+    );
+
+}
+
+body.theme-cimb .display {
+    background: radial-gradient(circle at top, #020617 0, #020617 55%, #000 100%);
+}
+
+body.theme-cimb .btn-download {
+    background: linear-gradient(135deg, #f97373, #ef4444);
+
+}
+
+body.theme-cimb .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(248, 113, 113, 0.95);
+}
+
+body.theme-cimb .btn-download:active {
+    box-shadow: 0 10px 24px rgba(127, 29, 29, 0.96);
+}
+
+body.theme-cimb .form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-color: rgba(248, 113, 113, 0.9);
+}
+
+body.theme-cimb .form-block h3 {
+    color: #fecaca;
+}
+
+body.theme-cimb .form-block label {
+    color: #fee2e2;
+}
+
+body.theme-cimb .form-block input[type="text"],
+body.theme-cimb .form-block input[type="datetime-local"],
+body.theme-cimb .form-block select,
+body.theme-cimb .form-block input[type="file"] {
+    border-color: rgba(248, 113, 113, 0.8);
+    color: #242424;
+    background: radial-gradient(
+        circle at top left,
+        rgba(185, 28, 28, 0.96),
+        rgba(69, 10, 10, 0.98)
+    );
+}
+
+body.theme-cimb .form-block input::placeholder {
+    color: #fecaca;
+}
+
+body.theme-cimb .form-block input[type="text"]:focus,
+body.theme-cimb .form-block input[type="datetime-local"]:focus,
+body.theme-cimb .form-block select:focus,
+body.theme-cimb .form-block input[type="file"]:focus {
+    border-color: #f97373;
+    box-shadow:
+        0 0 0 1px rgba(248, 113, 113, 0.96),
+        0 0 0 8px rgba(248, 113, 113, 0.3);
+    background: radial-gradient(circle at top left, #f76fd9, #db63c1);
+}
+
+body.theme-cimb .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #fee2e2 50%),
+        linear-gradient(135deg, #fee2e2 50%, transparent 50%);
+}
+
+body.theme-cimb .note {
+    color: #fecaca;
+}
+
+body.theme-cimb .app-footer {
+    color: #fecaca;
+}
+
+/* ===========================
+   THEME: KKP
+   =========================== */
+
+body.theme-kkp {
+    background:
+        radial-gradient(circle at top left, #312e81 0, #020617 45%),
+        radial-gradient(circle at bottom right, #0f172a 0, #020617 60%);
+}
+
+body.theme-kkp .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(129, 140, 248, 0.98),
+        rgba(79, 70, 229, 0.98)
+    );
+
+}
+
+body.theme-kkp .app-logo {
+    background: radial-gradient(circle at 30% 30%, #e0f2fe 0, #818cf8 40%, #312e81 100%);
+}
+
+body.theme-kkp .app-title-group p {
+    color: #e5e7eb;
+}
+
+body.theme-kkp .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(30, 64, 175, 0.98),
+        rgba(15, 23, 42, 0.98)
+    );
+
+}
+
+body.theme-kkp .display {
+    background: radial-gradient(circle at top, #020617 0, #020617 55%, #000 100%);
+}
+
+body.theme-kkp .btn-download {
+    background: linear-gradient(135deg, #818cf8, #4f46e5);
+   
+}
+
+body.theme-kkp .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(79, 70, 229, 0.95);
+}
+
+body.theme-kkp .btn-download:active {
+    box-shadow: 0 10px 24px rgba(30, 64, 175, 0.96);
+}
+
+body.theme-kkp .form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-color: rgba(129, 140, 248, 0.9);
+}
+
+body.theme-kkp .form-block h3 {
+    color: #c7d2fe;
+}
+
+body.theme-kkp .form-block label {
+    color: #e5e7eb;
+}
+
+body.theme-kkp .form-block input[type="text"],
+body.theme-kkp .form-block input[type="datetime-local"],
+body.theme-kkp .form-block select,
+body.theme-kkp .form-block input[type="file"] {
+    border-color: rgba(129, 140, 248, 0.8);
+    color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(79, 70, 229, 0.96),
+        rgba(30, 64, 175, 0.98)
+    );
+}
+
+body.theme-kkp .form-block input::placeholder {
+    color: #c7d2fe;
+}
+
+body.theme-kkp .form-block input[type="text"]:focus,
+body.theme-kkp .form-block input[type="datetime-local"]:focus,
+body.theme-kkp .form-block select:focus,
+body.theme-kkp .form-block input[type="file"]:focus {
+    border-color: #818cf8;
+    box-shadow:
+        0 0 0 1px rgba(129, 140, 248, 0.96),
+        0 0 0 8px rgba(129, 140, 248, 0.3);
+    background: radial-gradient(circle at top left, #791fce, #791fce);
+}
+
+body.theme-kkp .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #e0e7ff 50%),
+        linear-gradient(135deg, #e0e7ff 50%, transparent 50%);
+}
+
+body.theme-kkp .note {
+    color: #c7d2fe;
+}
+
+body.theme-kkp .app-footer {
+    color: #9ca3af;
+}
+
+/* ===========================
+   THEME: LINE BK
+   =========================== */
+
+body.theme-linebk {
+    background:
+        radial-gradient(circle at top left, #16a34a 0, #020617 45%),
+        radial-gradient(circle at bottom right, #22c55e 0, #020617 60%);
+}
+
+body.theme-linebk .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(34, 197, 94, 0.98),
+        rgba(22, 163, 74, 0.98)
+    );
+    box-shadow:
+        0 18px 40px rgba(5, 46, 22, 0.96),
+        0 0 0 1px rgba(187, 247, 208, 0.75);
+}
+
+body.theme-linebk .app-logo {
+    background: radial-gradient(circle at 30% 30%, #bbf7d0 0, #22c55e 40%, #15803d 100%);
+}
+
+body.theme-linebk .app-title-group p {
+    color: #dcfce7;
+}
+
+body.theme-linebk .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(6, 78, 59, 0.98),
+        rgba(5, 46, 22, 0.98)
+    );
+
+}
+
+body.theme-linebk .display {
+    background: radial-gradient(circle at top, #022c22 0, #020617 55%, #000 100%);
+}
+
+body.theme-linebk .btn-download {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+  
+}
+
+body.theme-linebk .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(22, 163, 74, 0.95);
+}
+
+body.theme-linebk .btn-download:active {
+    box-shadow: 0 10px 24px rgba(4, 46, 32, 0.96);
+}
+
+body.theme-linebk .form-block {
+    background: radial-gradient(circle at top left, #022c22 0, #020617 55%);
+    border-color: rgba(45, 212, 191, 0.9);
+}
+
+body.theme-linebk .form-block h3 {
+    color: #bbf7d0;
+}
+
+body.theme-linebk .form-block label {
+    color: #dcfce7;
+}
+
+body.theme-linebk .form-block input[type="text"],
+body.theme-linebk .form-block input[type="datetime-local"],
+body.theme-linebk .form-block select,
+body.theme-linebk .form-block input[type="file"] {
+    border-color: rgba(52, 211, 153, 0.85);
+    color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(21, 128, 61, 0.96),
+        rgba(5, 46, 22, 0.98)
+    );
+}
+
+body.theme-linebk .form-block input::placeholder {
+    color: #86efac;
+}
+
+body.theme-linebk .form-block input[type="text"]:focus,
+body.theme-linebk .form-block input[type="datetime-local"]:focus,
+body.theme-linebk .form-block select:focus,
+body.theme-linebk .form-block input[type="file"]:focus {
+    border-color: #4ade80;
+    box-shadow:
+        0 0 0 1px rgba(74, 222, 128, 0.96),
+        0 0 0 8px rgba(34, 197, 94, 0.3);
+    background: radial-gradient(circle at top left, #022c22, #020617);
+}
+
+body.theme-linebk .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #bbf7d0 50%),
+        linear-gradient(135deg, #bbf7d0 50%, transparent 50%);
+}
+
+body.theme-linebk .note {
+    color: #bbf7d0;
+}
+
+body.theme-linebk .app-footer {
+    color: #6ee7b7;
+}
+
+/* ===========================
+   THEME: MAKE by KBank
+   =========================== */
+
+body.theme-make {
+    background:
+        radial-gradient(circle at top left, #22c55e 0, #020617 45%),
+        radial-gradient(circle at bottom right, #4f46e5 0, #020617 60%);
+}
+
+body.theme-make .app-header {
+    background: linear-gradient(
+        120deg,
+        rgba(34, 197, 94, 0.98),
+        rgba(79, 70, 229, 0.98)
+    );
+
+}
+
+body.theme-make .app-logo {
+    background: radial-gradient(circle at 30% 30%, #a7f3d0 0, #22c55e 35%, #22c55e 100%);
+}
+
+body.theme-make .app-title-group p {
+    color: #a5b4fc;
+}
+
+body.theme-make .form-container {
+    background: linear-gradient(
+        180deg,
+        rgba(15, 23, 42, 0.98),
+        rgba(8, 47, 35, 0.98)
+    );
+
+}
+
+body.theme-make .display {
+    background: radial-gradient(circle at top, #020617 0, #020617 55%, #000 100%);
+}
+
+body.theme-make .btn-download {
+    background: linear-gradient(135deg, #22c55e, #4f46e5);
+ 
+}
+
+body.theme-make .btn-download:hover {
+    box-shadow: 0 18px 38px rgba(56, 189, 248, 0.95);
+}
+
+body.theme-make .btn-download:active {
+    box-shadow: 0 10px 24px rgba(30, 64, 175, 0.96);
+}
+
+body.theme-make .form-block {
+    background: radial-gradient(circle at top left, #020617 0, #020617 55%);
+    border-color: rgba(59, 130, 246, 0.9);
+}
+
+body.theme-make .form-block h3 {
+    color: #a5b4fc;
+}
+
+body.theme-make .form-block label {
+    color: #e5e7eb;
+}
+
+body.theme-make .form-block input[type="text"],
+body.theme-make .form-block input[type="datetime-local"],
+body.theme-make .form-block select,
+body.theme-make .form-block input[type="file"] {
+    border-color: rgba(59, 130, 246, 0.85);
+    color: #000000;
+    background: radial-gradient(
+        circle at top left,
+        rgba(56, 189, 248, 0.96),
+        rgba(21, 128, 61, 0.98)
+    );
+}
+
+body.theme-make .form-block input::placeholder {
+    color: #a5b4fc;
+}
+
+body.theme-make .form-block input[type="text"]:focus,
+body.theme-make .form-block input[type="datetime-local"]:focus,
+body.theme-make .form-block select:focus,
+body.theme-make .form-block input[type="file"]:focus {
+    border-color: #4ade80;
+    box-shadow:
+        0 0 0 1px rgba(74, 222, 128, 0.96),
+        0 0 0 8px rgba(56, 189, 248, 0.3);
+    background: radial-gradient(circle at top left, #198754, #198754);
+}
+
+body.theme-make .form-block select {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #a5b4fc 50%),
+        linear-gradient(135deg, #a5b4fc 50%, transparent 50%);
+}
+
+body.theme-make .note {
+    color: #a5b4fc;
+}
+
+body.theme-make .app-footer {
+    color: #a5b4fc;
+}
+
+
+
+/* KBank – เขียว (ธีมหลักเดิม) */
+body.theme-kbank {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #16a34a 0, #052e16 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #16a34a 0, #065f46 26%, #020617 80%);
+  --navbar-accent: rgba(34, 197, 94, 0.35);
+}
+
+/* SCB – ม่วง */
+body.theme-scb {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #7c3aed 0, #4c1d95 30%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #7c3aed 0, #5b21b6 30%, #020617 85%);
+  --navbar-accent: rgba(168, 85, 247, 0.55);
+}
+
+/* กรุงไทย */
+body.theme-ktb {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #0ea5e9 0, #0369a1 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #0ea5e9 0, #0284c7 30%, #020617 85%);
+  --navbar-accent: rgba(56, 189, 248, 0.5);
+}
+
+/* กรุงศรี */
+body.theme-kung {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #facc15 0, #ca8a04 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #facc15 0, #eab308 30%, #020617 85%);
+  --navbar-accent: rgba(250, 204, 21, 0.6);
+}
+
+/* กรุงเทพ */
+body.theme-bl {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #2563eb 0, #1d4ed8 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #2563eb 0, #1d4ed8 30%, #020617 85%);
+  --navbar-accent: rgba(59, 130, 246, 0.55);
+}
+
+/* ออมสิน */
+body.theme-gsb {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #ec4899 0, #be185d 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #ec4899 0, #db2777 30%, #020617 85%);
+  --navbar-accent: rgba(244, 114, 182, 0.6);
+}
+
+/* TTB */
+body.theme-ttb {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #0f172a 0, #1d4ed8 40%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #1d4ed8 0, #0f172a 50%, #020617 100%);
+  --navbar-accent: rgba(59, 130, 246, 0.5);
+}
+
+/* MAKE */
+body.theme-make {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #22c55e 0, #22d3ee 35%, #0f172a 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #22c55e 0, #22d3ee 40%, #0f172a 100%);
+  --navbar-accent: rgba(45, 212, 191, 0.65);
+}
+
+body.theme-scb {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #7c3aed 0, #4c1d95 30%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #7c3aed 0, #5b21b6 30%, #020617 85%);
+  --navbar-accent: rgba(168, 85, 247, 0.55);
+}
+/* ===== SIDEBAR + NAVBAR ตามธีมธนาคาร ===== */
+
+/* KBank – เขียว (ธีมหลักเดิม) */
+body.theme-kbank {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #16a34a 0, #052e16 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #16a34a 0, #065f46 26%, #020617 80%);
+  --navbar-accent: rgba(34, 197, 94, 0.35);
+}
+
+/* SCB – ม่วง */
+body.theme-scb {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #7c3aed 0, #4c1d95 30%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #7c3aed 0, #5b21b6 30%, #020617 85%);
+  --navbar-accent: rgba(168, 85, 247, 0.55);
+}
+
+/* กรุงไทย */
+body.theme-ktb {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #0ea5e9 0, #0369a1 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #0ea5e9 0, #0284c7 30%, #020617 85%);
+  --navbar-accent: rgba(56, 189, 248, 0.5);
+}
+
+/* กรุงศรี */
+body.theme-kung {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #facc15 0, #ca8a04 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #facc15 0, #eab308 30%, #020617 85%);
+  --navbar-accent: rgba(250, 204, 21, 0.6);
+}
+
+/* กรุงเทพ */
+body.theme-bl {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #2563eb 0, #1d4ed8 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #2563eb 0, #1d4ed8 30%, #020617 85%);
+  --navbar-accent: rgba(59, 130, 246, 0.55);
+}
+
+/* ออมสิน */
+body.theme-gsb {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #ec4899 0, #be185d 35%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #ec4899 0, #db2777 30%, #020617 85%);
+  --navbar-accent: rgba(244, 114, 182, 0.6);
+}
+
+/* TTB */
+body.theme-ttb {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #0f172a 0, #1d4ed8 40%, #020617 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #1d4ed8 0, #0f172a 50%, #020617 100%);
+  --navbar-accent: rgba(59, 130, 246, 0.5);
+}
+
+/* MAKE */
+body.theme-make {
+  --sidebar-bg:
+    radial-gradient(circle at 0% 0%, #22c55e 0, #22d3ee 35%, #0f172a 100%);
+  --navbar-bg:
+    radial-gradient(circle at 0% 0%, #22c55e 0, #22d3ee 40%, #0f172a 100%);
+  --navbar-accent: rgba(45, 212, 191, 0.65);
+}
+
+

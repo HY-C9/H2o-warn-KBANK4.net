@@ -1,0 +1,1069 @@
+
+/* SukhumvitSet */
+@font-face {
+    font-family: 'SukhumvitSetThin';
+    src: url('assets/fonts/SukhumvitSet-Thin.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SukhumvitSetLight';
+    src: url('assets/fonts/SukhumvitSet-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SukhumvitSetRegular';
+    src: url('assets/fonts/SukhumvitSet-Text.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SukhumvitSetMedium';
+    src: url('assets/fonts/SukhumvitSet-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SukhumvitSetSemiBold';
+    src: url('assets/fonts/SukhumvitSet-SemiBold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SukhumvitSetBold';
+    src: url('assets/fonts/SukhumvitSet-Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SukhumvitSetExtraBold';
+    src: url('assets/fonts/SukhumvitSet-Extra%20Bold.woff') format('woff');
+}
+
+/* SF Thonburi */
+
+@font-face {
+    font-family: 'SFThonburiLight';
+    src: url('assets/fonts/SFThonburi.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SFThonburiRegular';
+    src: url('assets/fonts/SFThonburi-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SFThonburiSemiBold';
+    src: url('assets/fonts/SFThonburi-Semibold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'SFThonburiBold';
+    src: url('assets/fonts/SFThonburi-Bold.woff') format('woff');
+}
+
+/* sarabun */
+@font-face {
+    font-family: 'SarabunThin';
+    src: url('assets/fonts/Sarabun-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunExtraLight';
+    src: url('assets/fonts/Sarabun-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunLight';
+    src: url('assets/fonts/Sarabun-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunRegular';
+    src: url('assets/fonts/Sarabun-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunMedium';
+    src: url('assets/fonts/Sarabun-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunSemiBold';
+    src: url('assets/fonts/Sarabun-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunBold';
+    src: url('assets/fonts/Sarabun-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'SarabunExtraBold';
+    src: url('assets/fonts/Sarabun-ExtraBold.woff') format('woff');
+}
+
+/* Kanit */
+@font-face {
+    font-family: 'KanitThin';
+    src: url('assets/fonts/Kanit-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitExtraLight';
+    src: url('assets/fonts/Kanit-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitLight';
+    src: url('assets/fonts/Kanit-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitRegular';
+    src: url('assets/fonts/Kanit-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitMedium';
+    src: url('assets/fonts/Kanit-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitSemiBold';
+    src: url('assets/fonts/Kanit-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitBold';
+    src: url('assets/fonts/Kanit-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitExtraBold';
+    src: url('assets/fonts/Kanit-ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'KanitBlack';
+    src: url('assets/fonts/Kanit-Black.woff') format('woff');
+}
+
+/* NotoSansKR */
+@font-face {
+    font-family: 'NotoSansKRThin';
+    src: url('assets/fonts/NotoSansKR-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRExtraLight';
+    src: url('assets/fonts/NotoSansKR-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRLight';
+    src: url('assets/fonts/NotoSansKR-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRRegular';
+    src: url('assets/fonts/NotoSansKR-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRMedium';
+    src: url('assets/fonts/NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRSemiBold';
+    src: url('assets/fonts/NotoSansKR-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRBold';
+    src: url('assets/fonts/NotoSansKR-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRExtraBold';
+    src: url('assets/fonts/NotoSansKR-ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'NotoSansKRBlack';
+    src: url('assets/fonts/NotoSansKR-Black.woff') format('woff');
+}
+/* arial */
+@font-face {
+    font-family: 'arialRegular';
+    src: url('assets/fonts/arial.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialRegularItalic';
+    src: url('assets/fonts/ariali.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialMedium';
+    src: url('assets/fonts/arialbd.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialSemiBold';
+    src: url('assets/fonts/Arialn_0.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialBold';
+    src: url('assets/fonts/ARIALNB.woff') format('woff');
+}
+@font-face {
+    font-family: 'arialExtraBold';
+    src: url('assets/fonts/ariblk.woff') format('woff');
+}
+
+/* Bangkok*/
+@font-face {
+    font-family: 'BangkokTime1';
+    src: url('assets/fonts/Bangkok-Time1.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BangkokTime2';
+    src: url('assets/fonts/Bangkok-Time2.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BangkokMoney';
+    src: url('assets/fonts/Bangkok-Money.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BangkokTime';
+    src: url('assets/fonts/Bangkok-Time.woff') format('woff');
+}
+/* BangkokMoney */
+@font-face {
+    font-family: 'BangkokMoneyRegular';
+    src: url('assets/fonts/Bangkok-Money-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'BangkokMoneyMedium';
+    src: url('assets/fonts/Bangkok-Money-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'BangkokMoneySemiBold';
+    src: url('assets/fonts/Bangkok-Money-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'BangkokMoneyBold';
+    src: url('assets/fonts/Bangkok-Money-Bold.woff') format('woff');
+}
+
+/* TTB-Money */
+@font-face {
+    font-family: 'TTBMoneyRegular';
+    src: url('assets/fonts/TTB-Money-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoneyMedium';
+    src: url('assets/fonts/TTB-Money-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoneySemiBold';
+    src: url('assets/fonts/TTB-Money-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoneyBold';
+    src: url('assets/fonts/TTB-Money-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoneyExtraBold';
+    src: url('assets/fonts/TTB-Money-ExtraBold.woff') format('woff');
+}
+/* krungsri */
+@font-face {
+    font-family: 'krungsriRegular';
+    src: url('assets/fonts/krungsri_con-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'krungsriMedium';
+    src: url('assets/fonts/krungsri_con_med-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'krungsriBold';
+    src: url('assets/fonts/krungsri_con_bol-webfont.woff') format('woff');
+}
+
+/* THSarabunNew */
+
+@font-face {
+    font-family: 'THSarabunRegular';
+    src: url('assets/fonts/THSarabun.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunBold';
+    src: url('assets/fonts/THSarabun-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunItalic';
+    src: url('assets/fonts/THSarabun-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunBoldItalic';
+    src: url('assets/fonts/THSarabun-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunNew';
+    src: url('assets/fonts/THSarabunNew.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunNewBold';
+    src: url('assets/fonts/THSarabunNew-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunNewItalic';
+    src: url('assets/fonts/THSarabunNew-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'THSarabunNewBoldItalic';
+    src: url('assets/fonts/THSarabunNew-BoldItalic.woff') format('woff');
+}
+/*DBHelvethaicaMonX*/
+@font-face {
+    font-family: 'DBHelvethaicaMonX';
+    src: url('assets/fonts/DBHelvethaicaMonX.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DBHelvethaicaMonXCond';
+    src: url('assets/fonts/DBHelvethaicaMonXCond.woff') format('woff');
+}
+@font-face {
+    font-family: 'DBHelvethaicaMonXMed';
+    src: url('assets/fonts/DBHelvethaicaMonXMed.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DBHelvethaicaMonXMedCond';
+    src: url('assets/fonts/DBHelvethaicaMonXMedCond.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DBHelvethaicaMonXBold';
+    src: url('assets/fonts/DBHelvethaicaMonXBd.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DBHelvethaicaMonXBoldCond';
+    src: url('assets/fonts/DBHelvethaicaMonXBdCond.woff') format('woff');
+}
+
+/* Times New Roman*/
+@font-face {
+    font-family: 'TimesNewRoman';
+    src: url('assets/fonts/times.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TimesNewRomanBold';
+    src: url('assets/fonts/timesbd.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TimesNewRomanItalic';
+    src: url('assets/fonts/timesi.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TimesNewRomanBoldItalic';
+    src: url('assets/fonts/timesbi.woff') format('woff');
+}
+
+/* IBM Plex sans thai */
+@font-face {
+    font-family: 'IBMPlexsansthaiThin';
+    src: url('assets/fonts/IBMPlexSansThai-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiExtraLight';
+    src: url('assets/fonts/IBMPlexSansThai-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiLight';
+    src: url('assets/fonts/IBMPlexSansThai-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiRegular';
+    src: url('assets/fonts/IBMPlexSansThai-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiMedium';
+    src: url('assets/fonts/IBMPlexSansThai-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiSemiBold';
+    src: url('assets/fonts/IBMPlexSansThai-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'IBMPlexsansthaiBold';
+    src: url('assets/fonts/IBMPlexSansThai-Bold.woff') format('woff');
+}
+
+
+/* Other*/
+@font-face {
+    font-family: 'DXKrungthaiSemiBold';
+    src: url('assets/fonts/DX-Krungthai-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXKrungthaiThin';
+    src: url('assets/fonts/DX-Krungthai-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXSCB';
+    src: url('assets/fonts/DX-SCB.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXTTBBold';
+    src: url('assets/fonts/DX-TTB-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXTTBRegular';
+    src: url('assets/fonts/DX-TTB-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXKrungthaiBold';
+    src: url('assets/fonts/DX-Krungthai-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXKrungthaiMedium';
+    src: url('assets/fonts/DX-Krungthai-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DXKrungthaiRegular';
+    src: url('assets/fonts/DX-Krungthai-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'TTBMoney';
+    src: url('assets/fonts/TTB Money.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'CoreSansLight';
+    src: url('assets/fonts/Core-Sans-E-W01-35-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'CoreSansBold';
+    src: url('assets/fonts/Core-Sans-N-65-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BaacBold';
+    src: url('assets/fonts/Baac_Bold.woff') format('woff');
+}
+
+/* kurious*/
+@font-face {
+    font-family: 'kuriousRegular';
+    src: url('assets/fonts/kurious-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousMedium';
+    src: url('assets/fonts/kurious-medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousSemiBold';
+    src: url('assets/fonts/kurious-semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousBold';
+    src: url('assets/fonts/kurious-Bold.woff') format('woff');
+}
+
+/* kurious*/
+@font-face {
+    font-family: 'kuriousRegular';
+    src: url('assets/fonts/kurious-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousMedium';
+    src: url('assets/fonts/kurious-medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousSemiBold';
+    src: url('assets/fonts/kurious-semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'kuriousBold';
+    src: url('assets/fonts/kurious-Bold.woff') format('woff');
+}
+
+body.slip-body.pastel-mode {
+  background:
+    radial-gradient(circle at 0% 0%, #fce7f3 0, #e0f2fe 40%, #f5f3ff 80%);
+  color: #0f172a;
+}
+
+/* Navbar / Sidebar */
+body.slip-body.pastel-mode .slip-navbar {
+  background: linear-gradient(135deg, #f9a8d4, #bfdbfe);
+  box-shadow:
+    0 15px 35px rgba(15, 23, 42, 0.75),
+    0 0 0 1px rgba(248, 187, 208, 0.7);
+}
+
+body.slip-body.pastel-mode .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #fecaca 0, #f9a8d4 35%, #bfdbfe 80%);
+  color: #111827;
+}
+
+/* Header กล่องสลิป (หัวข้อธนาคาร) */
+body.slip-body.pastel-mode .app-header {
+  background: linear-gradient(135deg, #f9a8d4, #bfdbfe);
+  box-shadow:
+    0 20px 40px rgba(148, 163, 184, 0.8),
+    0 0 0 1px rgba(248, 187, 208, 0.9);
+}
+
+/* กล่องฟอร์ม + กล่องแสดง Canvas */
+body.slip-body.pastel-mode .form-container,
+body.slip-body.pastel-mode .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #fdf2ff 40%, #e0f2fe 100%);
+  border-radius: 20px;
+  box-shadow:
+    0 16px 35px rgba(15, 23, 42, 0.35),
+    0 0 0 1px rgba(244, 114, 182, 0.4);
+}
+
+/* ปุ่มหลัก */
+body.slip-body.pastel-mode .btn-download,
+body.slip-body.pastel-mode .btn-primary {
+  background: linear-gradient(135deg, #f472b6, #fb7185);
+  border: none;
+  box-shadow: 0 10px 25px rgba(244, 114, 182, 0.6);
+}
+
+body.slip-body.pastel-mode .btn-download:hover,
+body.slip-body.pastel-mode .btn-primary:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+
+/* ฟอร์ม input / select */
+body.slip-body.pastel-mode input[type="text"],
+body.slip-body.pastel-mode input[type="datetime-local"],
+body.slip-body.pastel-mode select {
+  background-color: #ffffff;
+  border-color: rgba(248, 187, 208, 0.8);
+  color: #0f172a;
+  box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.35);
+}
+
+body.slip-body.pastel-mode input::placeholder {
+  color: #c4c4c4;
+}
+
+/* label / heading เล็กๆ */
+body.slip-body.pastel-mode .form-container h2,
+body.slip-body.pastel-mode .form-container h3,
+body.slip-body.pastel-mode label {
+  color: #1f2937;
+}
+
+
+/* ====== SCB – ม่วงพาสเทล ====== */
+body.slip-body.pastel-mode.theme-scb {
+  background:
+    radial-gradient(circle at 0% 0%, #f5e9ff 0, #e0f2fe 40%, #fdf2ff 80%);
+}
+
+body.slip-body.pastel-mode.theme-scb .app-header {
+  background: linear-gradient(135deg, #c4b5fd, #a5b4fc);
+  box-shadow:
+    0 20px 40px rgba(109, 40, 217, 0.45),
+    0 0 0 1px rgba(221, 214, 254, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-scb .app-logo {
+  background: radial-gradient(circle at 30% 30%, #ede9fe 0, #c4b5fd 45%, #4c1d95 100%);
+}
+
+body.slip-body.pastel-mode.theme-scb .form-container,
+body.slip-body.pastel-mode.theme-scb .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #fdf2ff 40%, #e0f2fe 100%);
+}
+
+
+/* ====== KBANK – เขียวพาสเทล ====== */
+body.slip-body.pastel-mode.theme-kbank {
+  background:
+    radial-gradient(circle at 0% 0%, #dcfce7 0, #e0f2fe 40%, #f5f3ff 80%);
+}
+
+body.slip-body.pastel-mode.theme-kbank .app-header {
+  background: linear-gradient(135deg, #6ee7b7, #22c55e);
+  box-shadow:
+    0 20px 40px rgba(22, 163, 74, 0.45),
+    0 0 0 1px rgba(187, 247, 208, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-kbank .app-logo {
+  background: radial-gradient(circle at 30% 30%, #ecfdf3 0, #6ee7b7 45%, #15803d 100%);
+}
+
+body.slip-body.pastel-mode.theme-kbank .form-container,
+body.slip-body.pastel-mode.theme-kbank .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #ecfdf5 40%, #dbeafe 100%);
+}
+
+
+/* ====== KTB – ฟ้าอมฟ้าพาสเทล ====== */
+body.slip-body.pastel-mode.theme-ktb {
+  background:
+    radial-gradient(circle at 0% 0%, #e0f2fe 0, #f5f3ff 40%, #f0f9ff 80%);
+}
+
+body.slip-body.pastel-mode.theme-ktb .app-header {
+  background: linear-gradient(135deg, #7dd3fc, #38bdf8);
+  box-shadow:
+    0 20px 40px rgba(37, 99, 235, 0.45),
+    0 0 0 1px rgba(191, 219, 254, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-ktb .app-logo {
+  background: radial-gradient(circle at 30% 30%, #eff6ff 0, #7dd3fc 45%, #0ea5e9 100%);
+}
+
+body.slip-body.pastel-mode.theme-ktb .form-container,
+body.slip-body.pastel-mode.theme-ktb .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #eff6ff 40%, #e0f2fe 100%);
+}
+
+
+/* ====== BBL – น้ำเงินเข้มพาสเทล ====== */
+body.slip-body.pastel-mode.theme-bbl {
+  background:
+    radial-gradient(circle at 0% 0%, #e0f2fe 0, #eef2ff 40%, #f5f3ff 80%);
+}
+
+body.slip-body.pastel-mode.theme-bbl .app-header {
+  background: linear-gradient(135deg, #93c5fd, #3b82f6);
+  box-shadow:
+    0 20px 40px rgba(30, 64, 175, 0.45),
+    0 0 0 1px rgba(191, 219, 254, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-bbl .app-logo {
+  background: radial-gradient(circle at 30% 30%, #eff6ff 0, #93c5fd 45%, #1d4ed8 100%);
+}
+
+body.slip-body.pastel-mode.theme-bbl .form-container,
+body.slip-body.pastel-mode.theme-bbl .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #eff6ff 40%, #dbeafe 100%);
+}
+
+
+/* ====== BAY – เหลืองพาสเทล ====== */
+body.slip-body.pastel-mode.theme-bay {
+  background:
+    radial-gradient(circle at 0% 0%, #fef9c3 0, #fffbeb 40%, #f5f3ff 80%);
+}
+
+body.slip-body.pastel-mode.theme-bay .app-header {
+  background: linear-gradient(135deg, #fde68a, #facc15);
+  box-shadow:
+    0 20px 40px rgba(202, 138, 4, 0.45),
+    0 0 0 1px rgba(254, 240, 138, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-bay .app-logo {
+  background: radial-gradient(circle at 30% 30%, #fefce8 0, #fde68a 45%, #ca8a04 100%);
+}
+
+body.slip-body.pastel-mode.theme-bay .form-container,
+body.slip-body.pastel-mode.theme-bay .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #fffbeb 40%, #fef9c3 100%);
+}
+
+
+/* ====== TTB – น้ำเงิน+ส้มพาสเทล ====== */
+body.slip-body.pastel-mode.theme-ttb {
+  background:
+    radial-gradient(circle at 0% 0%, #e0f2fe 0, #ffedd5 40%, #f5f3ff 80%);
+}
+
+body.slip-body.pastel-mode.theme-ttb .app-header {
+  background: linear-gradient(135deg, #93c5fd, #fed7aa);
+  box-shadow:
+    0 20px 40px rgba(15, 23, 42, 0.45),
+    0 0 0 1px rgba(191, 219, 254, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-ttb .app-logo {
+  background: radial-gradient(circle at 30% 30%, #eff6ff 0, #93c5fd 40%, #fb923c 100%);
+}
+
+body.slip-body.pastel-mode.theme-ttb .form-container,
+body.slip-body.pastel-mode.theme-ttb .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #eff6ff 40%, #ffedd5 100%);
+}
+
+
+/* ====== GSB – ชมพูพาสเทล ====== */
+body.slip-body.pastel-mode.theme-gsb {
+  background:
+    radial-gradient(circle at 0% 0%, #fce7f3 0, #fdf2ff 40%, #fee2e2 80%);
+}
+
+body.slip-body.pastel-mode.theme-gsb .app-header {
+  background: linear-gradient(135deg, #f9a8d4, #fb7185);
+  box-shadow:
+    0 20px 40px rgba(219, 39, 119, 0.45),
+    0 0 0 1px rgba(251, 207, 232, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-gsb .app-logo {
+  background: radial-gradient(circle at 30% 30%, #fdf2ff 0, #f9a8d4 45%, #be185d 100%);
+}
+
+body.slip-body.pastel-mode.theme-gsb .form-container,
+body.slip-body.pastel-mode.theme-gsb .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #fdf2ff 40%, #fee2e2 100%);
+}
+
+
+/* ====== ธ.ก.ส. – เขียวเข้มพาสเทล ====== */
+body.slip-body.pastel-mode.theme-baac {
+  background:
+    radial-gradient(circle at 0% 0%, #dcfce7 0, #e0f2fe 40%, #f5f3ff 80%);
+}
+
+body.slip-body.pastel-mode.theme-baac .app-header {
+  background: linear-gradient(135deg, #bbf7d0, #16a34a);
+  box-shadow:
+    0 20px 40px rgba(22, 101, 52, 0.45),
+    0 0 0 1px rgba(187, 247, 208, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-baac .app-logo {
+  background: radial-gradient(circle at 30% 30%, #ecfdf3 0, #bbf7d0 45%, #166534 100%);
+}
+
+body.slip-body.pastel-mode.theme-baac .form-container,
+body.slip-body.pastel-mode.theme-baac .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #ecfdf3 40%, #dbeafe 100%);
+}
+
+
+/* =========================
+   BASE PASTEL (โหมดรวม)
+   ========================= */
+body.slip-body.pastel-mode {
+  background:
+    radial-gradient(circle at 0% 0%, #fce7f3 0, #e0f2fe 40%, #f5f3ff 80%);
+  color: #0f172a;
+}
+
+body.slip-body.pastel-mode .slip-navbar {
+  /* ถ้าไม่มี theme เฉพาะ จะใช้โทนชมพู-ฟ้าเบา ๆ */
+  background: linear-gradient(135deg, #f9a8d4, #bfdbfe);
+  box-shadow:
+    0 15px 35px rgba(15, 23, 42, 0.75),
+    0 0 0 1px rgba(248, 187, 208, 0.7);
+}
+
+body.slip-body.pastel-mode .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #fecaca 0, #f9a8d4 35%, #bfdbfe 80%);
+  color: #111827;
+}
+
+body.slip-body.pastel-mode .app-header {
+  background: linear-gradient(135deg, #f9a8d4, #bfdbfe);
+  box-shadow:
+    0 20px 40px rgba(148, 163, 184, 0.8),
+    0 0 0 1px rgba(248, 187, 208, 0.9);
+}
+
+body.slip-body.pastel-mode .form-container,
+body.slip-body.pastel-mode .display-container {
+  background: radial-gradient(circle at 0% 0%, #ffffff 0, #fdf2ff 40%, #e0f2fe 100%);
+  border-radius: 20px;
+  box-shadow:
+    0 16px 35px rgba(15, 23, 42, 0.35),
+    0 0 0 1px rgba(244, 114, 182, 0.4);
+}
+
+body.slip-body.pastel-mode .sidebar-link.active {
+  background: rgba(15, 23, 42, 0.08);
+  color: #111827;
+}
+
+body.slip-body.pastel-mode .btn-download,
+body.slip-body.pastel-mode .btn-primary {
+  background: linear-gradient(135deg, #f472b6, #fb7185);
+  border: none;
+  box-shadow: 0 10px 25px rgba(244, 114, 182, 0.6);
+}
+
+body.slip-body.pastel-mode .btn-download:hover,
+body.slip-body.pastel-mode .btn-primary:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+
+body.slip-body.pastel-mode input[type="text"],
+body.slip-body.pastel-mode input[type="datetime-local"],
+body.slip-body.pastel-mode select {
+  background-color: #ffffff;
+  border-color: rgba(248, 187, 208, 0.8);
+  color: #0f172a;
+  box-shadow: 0 0 0 1px rgba(244, 114, 182, 0.35);
+}
+
+/* กล่องโน้ตให้โทนพาสเทลด้วย */
+body.slip-body.pastel-mode #noteOptions {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: #f9a8d4;
+  color: #0f172a;
+}
+
+body.slip-body.pastel-mode #noteOptions input,
+body.slip-body.pastel-mode #noteOptions select {
+  background: #ffffff;
+  color: #111827;
+  border-color: rgba(148, 163, 184, 0.7);
+}
+
+/* =========================
+   KBANK – เขียวมิ้นต์
+   ========================= */
+body.slip-body.pastel-mode.theme-kbank {
+  background:
+    radial-gradient(circle at 0% 0%, #dcfce7 0, #bbf7d0 35%, #e0f2fe 90%);
+}
+
+body.slip-body.pastel-mode.theme-kbank .slip-navbar {
+  background: linear-gradient(135deg, #4ade80, #22c55e);
+}
+
+body.slip-body.pastel-mode.theme-kbank .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #bbf7d0 0, #22c55e 40%, #022c22 95%);
+  color: #e5f9ee;
+}
+
+body.slip-body.pastel-mode.theme-kbank .app-header {
+  background: linear-gradient(135deg, #4ade80, #bbf7d0);
+  box-shadow:
+    0 20px 40px rgba(22, 101, 52, 0.7),
+    0 0 0 1px rgba(187, 247, 208, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-kbank .form-container,
+body.slip-body.pastel-mode.theme-kbank .display-container {
+  background: radial-gradient(circle at 0% 0%, #f0fdf4 0, #dcfce7 40%, #e0f2fe 100%);
+  box-shadow:
+    0 16px 35px rgba(22, 101, 52, 0.4),
+    0 0 0 1px rgba(134, 239, 172, 0.7);
+}
+
+/* =========================
+   SCB – ม่วงพาสเทล
+   ========================= */
+body.slip-body.pastel-mode.theme-scb {
+  background:
+    radial-gradient(circle at 0% 0%, #f3e8ff 0, #e9d5ff 40%, #e0f2fe 90%);
+}
+
+body.slip-body.pastel-mode.theme-scb .slip-navbar {
+  background: linear-gradient(135deg, #a855f7, #7c3aed);
+}
+
+body.slip-body.pastel-mode.theme-scb .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #ede9fe 0, #7c3aed 35%, #020617 95%);
+  color: #ede9fe;
+}
+
+body.slip-body.pastel-mode.theme-scb .app-header {
+  background: linear-gradient(135deg, #a855f7, #c4b5fd);
+  box-shadow:
+    0 20px 40px rgba(88, 28, 135, 0.7),
+    0 0 0 1px rgba(196, 181, 253, 0.9);
+}
+
+body.slip-body.pastel-mode.theme-scb .form-container,
+body.slip-body.pastel-mode.theme-scb .display-container {
+  background: radial-gradient(circle at 0% 0%, #fdf4ff 0, #f3e8ff 40%, #e0f2fe 100%);
+}
+
+/* =========================
+   BAY – เหลืองพาสเทล
+   ========================= */
+body.slip-body.pastel-mode.theme-bay {
+  background:
+    radial-gradient(circle at 0% 0%, #fef9c3 0, #fef3c7 40%, #fee2e2 90%);
+}
+
+body.slip-body.pastel-mode.theme-bay .slip-navbar {
+  background: linear-gradient(135deg, #facc15, #f97316);
+}
+
+body.slip-body.pastel-mode.theme-bay .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #fef9c3 0, #facc15 35%, #451a03 95%);
+  color: #111827;
+}
+
+body.slip-body.pastel-mode.theme-bay .app-header {
+  background: linear-gradient(135deg, #fde047, #f97316);
+  box-shadow:
+    0 20px 40px rgba(180, 83, 9, 0.7),
+    0 0 0 1px rgba(253, 224, 71, 0.8);
+}
+
+/* =========================
+   KTB – ฟ้าอมเขียว
+   ========================= */
+body.slip-body.pastel-mode.theme-ktb {
+  background:
+    radial-gradient(circle at 0% 0%, #e0f2fe 0, #bae6fd 40%, #ccfbf1 95%);
+}
+
+body.slip-body.pastel-mode.theme-ktb .slip-navbar {
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+}
+
+body.slip-body.pastel-mode.theme-ktb .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #e0f2fe 0, #0ea5e9 35%, #0f172a 95%);
+  color: #e5f6ff;
+}
+
+body.slip-body.pastel-mode.theme-ktb .app-header {
+  background: linear-gradient(135deg, #38bdf8, #67e8f9);
+}
+
+/* =========================
+   GSB – ชมพูหวาน
+   ========================= */
+body.slip-body.pastel-mode.theme-gsb {
+  background:
+    radial-gradient(circle at 0% 0%, #fce7f3 0, #f9a8d4 40%, #fee2e2 95%);
+}
+
+body.slip-body.pastel-mode.theme-gsb .slip-navbar {
+  background: linear-gradient(135deg, #fb6f92, #f472b6);
+}
+
+body.slip-body.pastel-mode.theme-gsb .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #fce7f3 0, #fb6f92 35%, #4a044e 95%);
+  color: #fdf2f8;
+}
+
+body.slip-body.pastel-mode.theme-gsb .app-header {
+  background: linear-gradient(135deg, #fb7185, #f9a8d4);
+}
+
+/* =========================
+   CIMB – แดงเลือดหมูพาสเทล
+   ========================= */
+body.slip-body.pastel-mode.theme-cimb {
+  background:
+    radial-gradient(circle at 0% 0%, #fee2e2 0, #fecaca 40%, #fee2e2 95%);
+}
+
+body.slip-body.pastel-mode.theme-cimb .slip-navbar {
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+}
+
+body.slip-body.pastel-mode.theme-cimb .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #fee2e2 0, #b91c1c 40%, #020617 95%);
+  color:#fee2e2;
+}
+
+body.slip-body.pastel-mode.theme-cimb .app-header {
+  background: linear-gradient(135deg, #f97373, #b91c1c);
+}
+
+/* =========================
+   TTB – น้ำเงินส้มพาสเทล
+   ========================= */
+body.slip-body.pastel-mode.theme-ttb {
+  background:
+    radial-gradient(circle at 0% 0%, #dbeafe 0, #bfdbfe 40%, #fee2e2 95%);
+}
+
+body.slip-body.pastel-mode.theme-ttb .slip-navbar {
+  background: linear-gradient(135deg, #60a5fa, #0284c7);
+}
+
+body.slip-body.pastel-mode.theme-ttb .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #eff6ff 0, #60a5fa 35%, #1e293b 95%);
+  color: #e5f2ff;
+}
+
+/* =========================
+   KKP – น้ำเงินเข้มพาสเทล
+   ========================= */
+body.slip-body.pastel-mode.theme-kkp {
+  background:
+    radial-gradient(circle at 0% 0%, #e0e7ff 0, #c7d2fe 40%, #e0f2fe 95%);
+}
+
+body.slip-body.pastel-mode.theme-kkp .slip-navbar {
+  background: linear-gradient(135deg, #4f46e5, #312e81);
+}
+
+body.slip-body.pastel-mode.theme-kkp .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #e0e7ff 0, #4f46e5 40%, #020617 95%);
+  color: #e0e7ff;
+}
+
+/* =========================
+   BAAC – เขียวอ่อนพาสเทล
+   ========================= */
+body.slip-body.pastel-mode.theme-baac {
+  background:
+    radial-gradient(circle at 0% 0%, #dcfce7 0, #bbf7d0 40%, #fef9c3 95%);
+}
+
+body.slip-body.pastel-mode.theme-baac .slip-navbar {
+  background: linear-gradient(135deg, #22c55e, #65a30d);
+}
+
+body.slip-body.pastel-mode.theme-baac .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #ecfccb 0, #22c55e 35%, #022c22 95%);
+  color: #052e16;
+}
+
+/* =========================
+   LINE BK – เขียวมิ้นต์/ฟ้า
+   ========================= */
+body.slip-body.pastel-mode.theme-linebk {
+  background:
+    radial-gradient(circle at 0% 0%, #dcfce7 0, #a5f3fc 40%, #e0f2fe 95%);
+}
+
+body.slip-body.pastel-mode.theme-linebk .slip-navbar {
+  background: linear-gradient(135deg, #22c55e, #06b6d4);
+}
+
+body.slip-body.pastel-mode.theme-linebk .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #bbf7d0 0, #22c55e 35%, #020617 95%);
+}
+
+/* =========================
+   MAKE by KBank – เขียว/ม่วงพาสเทล
+   ========================= */
+body.slip-body.pastel-mode.theme-make {
+  background:
+    radial-gradient(circle at 0% 0%, #dcfce7 0, #ede9fe 40%, #e0f2fe 95%);
+}
+
+body.slip-body.pastel-mode.theme-make .slip-navbar {
+  background: linear-gradient(135deg, #22c55e, #a855f7);
+}
+
+body.slip-body.pastel-mode.theme-make .slip-sidebar {
+  background:
+    radial-gradient(circle at 0% 0%, #bbf7d0 0, #22c55e 35%, #4c1d95 95%);
+}
