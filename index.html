@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KBank Live (เข้า/ออก) - Premium System (VS Code Mode)</title>
+    <title>KBank Live (เข้า/ออก)</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -91,7 +91,6 @@
         input[type=range] { appearance: none; -webkit-appearance: none; width: 100%; background: transparent; height: 28px; margin: 0; padding: 0;}
         input[type=range]::-webkit-slider-thumb { appearance: none; -webkit-appearance: none; height: 14px; width: 14px; border-radius: 50%; background: var(--kbank-secondary); cursor: pointer; margin-top: -5px; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
         input[type=range]::-webkit-slider-runnable-track { width: 100%; height: 4px; cursor: pointer; background: var(--card-border); border-radius: 2px; }
-        
         .btn-outline-warning { border-color: #f59e0b; color: #f59e0b; background: transparent; height: 28px; line-height: 1; padding: 0 10px; font-size: 0.75rem;}
         .btn-warning { background-color: #f59e0b; color: #000; border-color: #f59e0b; height: 28px; line-height: 1; padding: 0 10px; font-size: 0.75rem;}
     </style>
@@ -121,7 +120,7 @@
       <a href="https://hy-c9.github.io/H2o-warn-KTB2.net" class="sidebar-link"><img src="assets/image/logo1/p-kt.png" class="sidebar-icon-img"> เงินเข้า กรุงไทย (3)</a>
       <a href="https://hy-c9.github.io/H2o-warn-KTB3.net" class="sidebar-link"><img src="assets/image/logo1/p-kt.png" class="sidebar-icon-img"> เงินเข้า กรุงไทย (4)</a>
       <a href="https://hy-c9.github.io/H2o-warn-KTB4.net" class="sidebar-link"><img src="assets/image/logo1/p-kt.png" class="sidebar-icon-img"> เงินเข้า กรุงไทย (5)</a>
-      
+
       <a href="https://hy-c9.github.io/H2o-warn-SCB.net" class="sidebar-link"><img src="assets/image/logo1/p-scb.png" class="sidebar-icon-img"> เงินเข้า ไทยพาณิชย์ (1)</a>
       <a href="https://hy-c9.github.io/H2o-warn-SCB1.net" class="sidebar-link"><img src="assets/image/logo1/p-scb.png" class="sidebar-icon-img"> เงินเข้า ไทยพาณิชย์ (2)</a>
       <a href="https://hy-c9.github.io/H2o-warn-SCB2.net" class="sidebar-link"><img src="assets/image/logo1/p-scb.png" class="sidebar-icon-img"> เงินเข้า ไทยพาณิชย์ (3)</a>
@@ -145,7 +144,6 @@
       <a href="https://hy-c9.github.io/H2o-warn-BAAC.net" class="sidebar-link"><img src="assets/image/logo1/p-tks.png" class="sidebar-icon-img"> เงินเข้า ธ.ก.ส.</a>
       <a href="https://hy-c9.github.io/H2o-warn-MAKE.net" class="sidebar-link"><img src="assets/image/logo1/p-make.png" class="sidebar-icon-img"> เงินเข้า MAKE</a>
       <a href="https://hy-c9.github.io/H2o-warn-LINEBK.net" class="sidebar-link"><img src="assets/image/logo1/p-linebk.png" class="sidebar-icon-img"> เงินเข้า LINE BK</a>
-    </nav>
     </nav>
     
     <div class="mt-auto pb-3 pt-4 px-3">
@@ -185,6 +183,21 @@
       <div class="row g-2">
         
         <div class="col-lg-5">
+
+            <div class="d-flex justify-content-between align-items-center mb-2 px-1">
+                <div class="text-warning fw-medium" style="font-size: 0.85rem;"><i class="bi bi-lightning-charge-fill"></i> เมนูด่วน</div>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-sm btn-outline-danger py-1 px-2" style="font-size: 0.75rem;" onclick="clearForm()" title="ล้างค่าทั้งหมด">
+                        <i class="bi bi-trash"></i> ล้าง
+                    </button>
+                    <button class="btn btn-sm btn-outline-primary py-1 px-2" style="font-size: 0.75rem;" onclick="saveFavorite()" title="บันทึกรายการปัจจุบัน">
+                        <i class="bi bi-bookmark-plus"></i> บันทึกไว้
+                    </button>
+                    <button class="btn btn-sm btn-warning py-1 px-2 fw-bold text-dark" style="font-size: 0.75rem;" onclick="loadFavorite()" title="โหลดรายการที่บันทึกไว้">
+                        <i class="bi bi-star-fill"></i> ใช้รายการโปรด
+                    </button>
+                </div>
+            </div>
             
             <div class="form-section-card">
                 <div class="form-section-title"><i class="bi bi-phone"></i> ตั้งค่าโทรศัพท์</div>
@@ -348,6 +361,78 @@
             btn.classList.add('btn-outline-warning');
         }
         if (typeof window.updateDisplay === 'function') window.updateDisplay();
+    };
+
+    // --------------------------------------------------------
+    // ฟังก์ชัน: การจัดการ เมนูด่วน (Clear / Save / Load)
+    // --------------------------------------------------------
+    const STORAGE_KEY = 'slipFav_KBANK_IN_4'; 
+
+    window.clearForm = function() {
+        const now = new Date();
+        const timeStr = now.toTimeString().slice(0,5);
+        if(document.getElementById('datetime_plus_one')) document.getElementById('datetime_plus_one').value = timeStr;
+        
+        now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+        const localISO = now.toISOString().slice(0, 19);
+        if(document.getElementById('datetime')) document.getElementById('datetime').value = localISO;
+        if(document.getElementById('datetime2')) document.getElementById('datetime2').value = localISO;
+        
+        if(document.getElementById('battery')) {
+            document.getElementById('battery').value = 100;
+            updateBatteryUI();
+        }
+        if(typeof isPowerSaving !== 'undefined' && isPowerSaving) {
+            togglePowerSavingMode();
+        }
+        
+        if(document.getElementById('senderaccount1')) document.getElementById('senderaccount1').value = 'xxx-x-x5529-x';
+        if(document.getElementById('transactionType')) document.getElementById('transactionType').selectedIndex = 0;
+        if(document.getElementById('money01')) document.getElementById('money01').value = '30,650.00';
+        if(document.getElementById('remaining1')) document.getElementById('remaining1').value = '34,650.00';
+        
+        if(document.getElementById('transactionType2')) document.getElementById('transactionType2').selectedIndex = 0;
+        if(document.getElementById('money02')) document.getElementById('money02').value = '15,000.00';
+        if(document.getElementById('remaining2')) document.getElementById('remaining2').value = '49,650.00';
+        
+        if(window.updateDisplay) window.updateDisplay();
+    };
+
+    window.saveFavorite = function() {
+        const favData = {
+            sAcc1: document.getElementById('senderaccount1') ? document.getElementById('senderaccount1').value : '',
+            
+            tType1: document.getElementById('transactionType') ? document.getElementById('transactionType').value : '',
+            money01: document.getElementById('money01') ? document.getElementById('money01').value : '',
+            remain1: document.getElementById('remaining1') ? document.getElementById('remaining1').value : '',
+            
+            tType2: document.getElementById('transactionType2') ? document.getElementById('transactionType2').value : '',
+            money02: document.getElementById('money02') ? document.getElementById('money02').value : '',
+            remain2: document.getElementById('remaining2') ? document.getElementById('remaining2').value : ''
+        };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(favData));
+        alert('⭐ บันทึกรายการนี้เป็น "รายการโปรด" เรียบร้อยแล้ว!');
+    };
+
+    window.loadFavorite = function() {
+        const savedStr = localStorage.getItem(STORAGE_KEY);
+        if (savedStr) {
+            const favData = JSON.parse(savedStr);
+            
+            if(favData.sAcc1 !== undefined && document.getElementById('senderaccount1')) document.getElementById('senderaccount1').value = favData.sAcc1;
+            
+            if(favData.tType1 !== undefined && document.getElementById('transactionType')) document.getElementById('transactionType').value = favData.tType1;
+            if(favData.money01 !== undefined && document.getElementById('money01')) document.getElementById('money01').value = favData.money01;
+            if(favData.remain1 !== undefined && document.getElementById('remaining1')) document.getElementById('remaining1').value = favData.remain1;
+            
+            if(favData.tType2 !== undefined && document.getElementById('transactionType2')) document.getElementById('transactionType2').value = favData.tType2;
+            if(favData.money02 !== undefined && document.getElementById('money02')) document.getElementById('money02').value = favData.money02;
+            if(favData.remain2 !== undefined && document.getElementById('remaining2')) document.getElementById('remaining2').value = favData.remain2;
+            
+            if(window.updateDisplay) window.updateDisplay();
+        } else {
+            alert('⚠️ คุณยังไม่ได้บันทึกรายการโปรด');
+        }
     };
 </script>
 
